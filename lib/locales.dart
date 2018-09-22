@@ -7,1935 +7,1311 @@ class Locale {
   @override
   toString() => _name;
 
-  /// Afrikaans
-  static const afrikaans = Locale._('af_');
-
   /// Afrikaans Namibia
-  static const afrikaans_namibia = Locale._('af_NA');
+  static const af_NA = Locale._('af_NA');
 
   /// Afrikaans South Africa
-  static const afrikaans_south_africa = Locale._('af_ZA');
-
-  /// Aghem
-  static const aghem = Locale._('agq_');
+  static const af_ZA = Locale._('af_ZA');
 
   /// Aghem Cameroon
-  static const aghem_cameroon = Locale._('agq_CM');
-
-  /// Akan
-  static const akan = Locale._('ak_');
+  static const agq_CM = Locale._('agq_CM');
 
   /// Akan Ghana
-  static const akan_ghana = Locale._('ak_GH');
-
-  /// Amharic
-  static const amharic = Locale._('am_');
+  static const ak_GH = Locale._('ak_GH');
 
   /// Amharic Ethiopia
-  static const amharic_ethiopia = Locale._('am_ET');
-
-  /// Arabic
-  static const arabic = Locale._('ar_');
+  static const am_ET = Locale._('am_ET');
 
   /// Arabic World
-  static const arabic_world = Locale._('ar_001');
+  static const ar_001 = Locale._('ar_001');
 
   /// Arabic United Arab Emirates
-  static const arabic_united_arab_emirates = Locale._('ar_AE');
+  static const ar_AE = Locale._('ar_AE');
 
   /// Arabic Bahrain
-  static const arabic_bahrain = Locale._('ar_BH');
+  static const ar_BH = Locale._('ar_BH');
 
   /// Arabic Djibouti
-  static const arabic_djibouti = Locale._('ar_DJ');
+  static const ar_DJ = Locale._('ar_DJ');
 
   /// Arabic Algeria
-  static const arabic_algeria = Locale._('ar_DZ');
+  static const ar_DZ = Locale._('ar_DZ');
 
   /// Arabic Egypt
-  static const arabic_egypt = Locale._('ar_EG');
+  static const ar_EG = Locale._('ar_EG');
 
   /// Arabic Western Sahara
-  static const arabic_western_sahara = Locale._('ar_EH');
+  static const ar_EH = Locale._('ar_EH');
 
   /// Arabic Eritrea
-  static const arabic_eritrea = Locale._('ar_ER');
+  static const ar_ER = Locale._('ar_ER');
 
   /// Arabic Israel
-  static const arabic_israel = Locale._('ar_IL');
+  static const ar_IL = Locale._('ar_IL');
 
   /// Arabic Iraq
-  static const arabic_iraq = Locale._('ar_IQ');
+  static const ar_IQ = Locale._('ar_IQ');
 
   /// Arabic Jordan
-  static const arabic_jordan = Locale._('ar_JO');
+  static const ar_JO = Locale._('ar_JO');
 
   /// Arabic Comoros
-  static const arabic_comoros = Locale._('ar_KM');
+  static const ar_KM = Locale._('ar_KM');
 
   /// Arabic Kuwait
-  static const arabic_kuwait = Locale._('ar_KW');
+  static const ar_KW = Locale._('ar_KW');
 
   /// Arabic Lebanon
-  static const arabic_lebanon = Locale._('ar_LB');
+  static const ar_LB = Locale._('ar_LB');
 
   /// Arabic Libya
-  static const arabic_libya = Locale._('ar_LY');
+  static const ar_LY = Locale._('ar_LY');
 
   /// Arabic Morocco
-  static const arabic_morocco = Locale._('ar_MA');
+  static const ar_MA = Locale._('ar_MA');
 
   /// Arabic Mauritania
-  static const arabic_mauritania = Locale._('ar_MR');
+  static const ar_MR = Locale._('ar_MR');
 
   /// Arabic Oman
-  static const arabic_oman = Locale._('ar_OM');
+  static const ar_OM = Locale._('ar_OM');
 
   /// Arabic Palestine
-  static const arabic_palestine = Locale._('ar_PS');
+  static const ar_PS = Locale._('ar_PS');
 
   /// Arabic Qatar
-  static const arabic_qatar = Locale._('ar_QA');
+  static const ar_QA = Locale._('ar_QA');
 
   /// Arabic Saudi Arabia
-  static const arabic_saudi_arabia = Locale._('ar_SA');
+  static const ar_SA = Locale._('ar_SA');
 
   /// Arabic Sudan
-  static const arabic_sudan = Locale._('ar_SD');
+  static const ar_SD = Locale._('ar_SD');
 
   /// Arabic Somalia
-  static const arabic_somalia = Locale._('ar_SO');
+  static const ar_SO = Locale._('ar_SO');
 
   /// Arabic South Sudan
-  static const arabic_south_sudan = Locale._('ar_SS');
+  static const ar_SS = Locale._('ar_SS');
 
   /// Arabic Syria
-  static const arabic_syria = Locale._('ar_SY');
+  static const ar_SY = Locale._('ar_SY');
 
   /// Arabic Chad
-  static const arabic_chad = Locale._('ar_TD');
+  static const ar_TD = Locale._('ar_TD');
 
   /// Arabic Tunisia
-  static const arabic_tunisia = Locale._('ar_TN');
+  static const ar_TN = Locale._('ar_TN');
 
   /// Arabic Yemen
-  static const arabic_yemen = Locale._('ar_YE');
-
-  /// Assamese
-  static const assamese = Locale._('as_');
+  static const ar_YE = Locale._('ar_YE');
 
   /// Assamese India
-  static const assamese_india = Locale._('as_IN');
-
-  /// Asu
-  static const asu = Locale._('asa_');
+  static const as_IN = Locale._('as_IN');
 
   /// Asu Tanzania
-  static const asu_tanzania = Locale._('asa_TZ');
+  static const asa_TZ = Locale._('asa_TZ');
 
-  /// Azerbaijani
-  static const azerbaijani = Locale._('az_');
-
-  /// Azerbaijani Cyrillic
-  static const azerbaijani_cyrillic = Locale._('az_');
-
-  /// Azerbaijani Cyrillic Azerbaijan
-  static const azerbaijani_cyrillic_azerbaijan = Locale._('az_AZ');
-
-  /// Azerbaijani Latin
-  static const azerbaijani_latin = Locale._('az_');
-
-  /// Azerbaijani Latin Azerbaijan
-  static const azerbaijani_latin_azerbaijan = Locale._('az_AZ');
-
-  /// Basaa
-  static const basaa = Locale._('bas_');
+  /// Azerbaijan
+  static const az_AZ = Locale._('az_AZ');
 
   /// Basaa Cameroon
-  static const basaa_cameroon = Locale._('bas_CM');
-
-  /// Belarusian
-  static const belarusian = Locale._('be_');
+  static const bas_CM = Locale._('bas_CM');
 
   /// Belarusian Belarus
-  static const belarusian_belarus = Locale._('be_BY');
-
-  /// Bemba
-  static const bemba = Locale._('bem_');
+  static const be_BY = Locale._('be_BY');
 
   /// Bemba Zambia
-  static const bemba_zambia = Locale._('bem_ZM');
-
-  /// Bena
-  static const bena = Locale._('bez_');
+  static const bem_ZM = Locale._('bem_ZM');
 
   /// Bena Tanzania
-  static const bena_tanzania = Locale._('bez_TZ');
-
-  /// Bulgarian
-  static const bulgarian = Locale._('bg_');
+  static const bez_TZ = Locale._('bez_TZ');
 
   /// Bulgarian Bulgaria
-  static const bulgarian_bulgaria = Locale._('bg_BG');
-
-  /// Bambara
-  static const bambara = Locale._('bm_');
+  static const bg_BG = Locale._('bg_BG');
 
   /// Bambara Mali
-  static const bambara_mali = Locale._('bm_ML');
-
-  /// Bengali
-  static const bengali = Locale._('bn_');
+  static const bm_ML = Locale._('bm_ML');
 
   /// Bengali Bangladesh
-  static const bengali_bangladesh = Locale._('bn_BD');
+  static const bn_BD = Locale._('bn_BD');
 
   /// Bengali India
-  static const bengali_india = Locale._('bn_IN');
-
-  /// Tibetan
-  static const tibetan = Locale._('bo_');
+  static const bn_IN = Locale._('bn_IN');
 
   /// Tibetan China
-  static const tibetan_china = Locale._('bo_CN');
+  static const bo_CN = Locale._('bo_CN');
 
   /// Tibetan India
-  static const tibetan_india = Locale._('bo_IN');
-
-  /// Breton
-  static const breton = Locale._('br_');
+  static const bo_IN = Locale._('bo_IN');
 
   /// Breton France
-  static const breton_france = Locale._('br_FR');
-
-  /// Bodo
-  static const bodo = Locale._('brx_');
+  static const br_FR = Locale._('br_FR');
 
   /// Bodo India
-  static const bodo_india = Locale._('brx_IN');
+  static const brx_IN = Locale._('brx_IN');
 
-  /// Bosnian
-  static const bosnian = Locale._('bs_');
-
-  /// Bosnian Cyrillic
-  static const bosnian_cyrillic = Locale._('bs_');
-
-  /// Bosnian Cyrillic Bosnia Herzegovina
-  static const bosnian_cyrillic_bosnia_herzegovina = Locale._('bs_BA');
-
-  /// Bosnian Latin
-  static const bosnian_latin = Locale._('bs_');
-
-  /// Bosnian Latin Bosnia Herzegovina
-  static const bosnian_latin_bosnia_herzegovina = Locale._('bs_BA');
-
-  /// Catalan
-  static const catalan = Locale._('ca_');
+  /// Bosnian Bosnia Herzegovina (Cyrillic/Latin)
+  static const bs_BA = Locale._('bs_BA');
 
   /// Catalan Andorra
-  static const catalan_andorra = Locale._('ca_AD');
+  static const ca_AD = Locale._('ca_AD');
 
   /// Catalan Spain
-  static const catalan_spain = Locale._('ca_ES');
+  static const ca_ES = Locale._('ca_ES');
 
   /// Catalan France
-  static const catalan_france = Locale._('ca_FR');
+  static const ca_FR = Locale._('ca_FR');
 
   /// Catalan Italy
-  static const catalan_italy = Locale._('ca_IT');
-
-  /// Chiga
-  static const chiga = Locale._('cgg_');
+  static const ca_IT = Locale._('ca_IT');
 
   /// Chiga Uganda
-  static const chiga_uganda = Locale._('cgg_UG');
-
-  /// Cherokee
-  static const cherokee = Locale._('chr_');
+  static const cgg_UG = Locale._('cgg_UG');
 
   /// Cherokee United States
-  static const cherokee_united_states = Locale._('chr_US');
-
-  /// Czech
-  static const czech = Locale._('cs_');
+  static const chr_US = Locale._('chr_US');
 
   /// Czech Czech Republic
-  static const czech_czech_republic = Locale._('cs_CZ');
-
-  /// Welsh
-  static const welsh = Locale._('cy_');
+  static const cs_CZ = Locale._('cs_CZ');
 
   /// Welsh United Kingdom
-  static const welsh_united_kingdom = Locale._('cy_GB');
-
-  /// Danish
-  static const danish = Locale._('da_');
+  static const cy_GB = Locale._('cy_GB');
 
   /// Danish Denmark
-  static const danish_denmark = Locale._('da_DK');
+  static const da_DK = Locale._('da_DK');
 
   /// Danish Greenland
-  static const danish_greenland = Locale._('da_GL');
-
-  /// Taita
-  static const taita = Locale._('dav_');
+  static const da_GL = Locale._('da_GL');
 
   /// Taita Kenya
-  static const taita_kenya = Locale._('dav_KE');
-
-  /// German
-  static const german = Locale._('de_');
+  static const dav_KE = Locale._('dav_KE');
 
   /// German Austria
-  static const german_austria = Locale._('de_AT');
+  static const de_AT = Locale._('de_AT');
 
   /// German Belgium
-  static const german_belgium = Locale._('de_BE');
+  static const de_BE = Locale._('de_BE');
 
   /// German Switzerland
-  static const german_switzerland = Locale._('de_CH');
+  static const de_CH = Locale._('de_CH');
 
   /// German Germany
-  static const german_germany = Locale._('de_DE');
+  static const de_DE = Locale._('de_DE');
 
   /// German Liechtenstein
-  static const german_liechtenstein = Locale._('de_LI');
+  static const de_LI = Locale._('de_LI');
 
   /// German Luxembourg
-  static const german_luxembourg = Locale._('de_LU');
-
-  /// Zarma
-  static const zarma = Locale._('dje_');
+  static const de_LU = Locale._('de_LU');
 
   /// Zarma Niger
-  static const zarma_niger = Locale._('dje_NE');
-
-  /// Duala
-  static const duala = Locale._('dua_');
+  static const dje_NE = Locale._('dje_NE');
 
   /// Duala Cameroon
-  static const duala_cameroon = Locale._('dua_CM');
-
-  /// Jola Fonyi
-  static const jola_fonyi = Locale._('dyo_');
+  static const dua_CM = Locale._('dua_CM');
 
   /// Jola Fonyi Senegal
-  static const jola_fonyi_senegal = Locale._('dyo_SN');
-
-  /// Dzongkha
-  static const dzongkha = Locale._('dz_');
+  static const dyo_SN = Locale._('dyo_SN');
 
   /// Dzongkha Bhutan
-  static const dzongkha_bhutan = Locale._('dz_BT');
-
-  /// Embu
-  static const embu = Locale._('ebu_');
+  static const dz_BT = Locale._('dz_BT');
 
   /// Embu Kenya
-  static const embu_kenya = Locale._('ebu_KE');
-
-  /// Ewe
-  static const ewe = Locale._('ee_');
+  static const ebu_KE = Locale._('ebu_KE');
 
   /// Ewe Ghana
-  static const ewe_ghana = Locale._('ee_GH');
+  static const ee_GH = Locale._('ee_GH');
 
   /// Ewe Togo
-  static const ewe_togo = Locale._('ee_TG');
-
-  /// Greek
-  static const greek = Locale._('el_');
+  static const ee_TG = Locale._('ee_TG');
 
   /// Greek Cyprus
-  static const greek_cyprus = Locale._('el_CY');
+  static const el_CY = Locale._('el_CY');
 
   /// Greek Greece
-  static const greek_greece = Locale._('el_GR');
-
-  /// English
-  static const english = Locale._('en_');
+  static const el_GR = Locale._('el_GR');
 
   /// English World
-  static const english_world = Locale._('en_001');
+  static const en_001 = Locale._('en_001');
 
   /// English Europe
-  static const english_europe = Locale._('en_150');
+  static const en_150 = Locale._('en_150');
 
   /// English Antigua Barbuda
-  static const english_antigua_barbuda = Locale._('en_AG');
+  static const en_AG = Locale._('en_AG');
 
   /// English Anguilla
-  static const english_anguilla = Locale._('en_AI');
+  static const en_AI = Locale._('en_AI');
 
   /// English American Samoa
-  static const english_american_samoa = Locale._('en_AS');
+  static const en_AS = Locale._('en_AS');
 
   /// English Australia
-  static const english_australia = Locale._('en_AU');
+  static const en_AU = Locale._('en_AU');
 
   /// English Barbados
-  static const english_barbados = Locale._('en_BB');
+  static const en_BB = Locale._('en_BB');
 
   /// English Belgium
-  static const english_belgium = Locale._('en_BE');
+  static const en_BE = Locale._('en_BE');
 
   /// English Bermuda
-  static const english_bermuda = Locale._('en_BM');
+  static const en_BM = Locale._('en_BM');
 
   /// English Bahamas
-  static const english_bahamas = Locale._('en_BS');
+  static const en_BS = Locale._('en_BS');
 
   /// English Botswana
-  static const english_botswana = Locale._('en_BW');
+  static const en_BW = Locale._('en_BW');
 
   /// English Belize
-  static const english_belize = Locale._('en_BZ');
+  static const en_BZ = Locale._('en_BZ');
 
   /// English Canada
-  static const english_canada = Locale._('en_CA');
+  static const en_CA = Locale._('en_CA');
 
   /// English Cocos Keeling Islands
-  static const english_cocos_keeling_islands = Locale._('en_CC');
+  static const en_CC = Locale._('en_CC');
 
   /// English Cook Islands
-  static const english_cook_islands = Locale._('en_CK');
+  static const en_CK = Locale._('en_CK');
 
   /// English Cameroon
-  static const english_cameroon = Locale._('en_CM');
+  static const en_CM = Locale._('en_CM');
 
   /// English Christmas Island
-  static const english_christmas_island = Locale._('en_CX');
+  static const en_CX = Locale._('en_CX');
 
   /// English Diego Garcia
-  static const english_diego_garcia = Locale._('en_DG');
+  static const en_DG = Locale._('en_DG');
 
   /// English Dominica
-  static const english_dominica = Locale._('en_DM');
+  static const en_DM = Locale._('en_DM');
 
   /// English Eritrea
-  static const english_eritrea = Locale._('en_ER');
+  static const en_ER = Locale._('en_ER');
 
   /// English Fiji
-  static const english_fiji = Locale._('en_FJ');
+  static const en_FJ = Locale._('en_FJ');
 
   /// English Falkland Islands Islas Malvinas
-  static const english_falkland_islands_islas_malvinas = Locale._('en_FK');
+  static const en_FK = Locale._('en_FK');
 
   /// English Micronesia
-  static const english_micronesia = Locale._('en_FM');
+  static const en_FM = Locale._('en_FM');
 
   /// English United Kingdom
-  static const english_united_kingdom = Locale._('en_GB');
+  static const en_GB = Locale._('en_GB');
 
   /// English Grenada
-  static const english_grenada = Locale._('en_GD');
+  static const en_GD = Locale._('en_GD');
 
   /// English Guernsey
-  static const english_guernsey = Locale._('en_GG');
+  static const en_GG = Locale._('en_GG');
 
   /// English Ghana
-  static const english_ghana = Locale._('en_GH');
+  static const en_GH = Locale._('en_GH');
 
   /// English Gibraltar
-  static const english_gibraltar = Locale._('en_GI');
+  static const en_GI = Locale._('en_GI');
 
   /// English Gambia
-  static const english_gambia = Locale._('en_GM');
+  static const en_GM = Locale._('en_GM');
 
   /// English Guam
-  static const english_guam = Locale._('en_GU');
+  static const en_GU = Locale._('en_GU');
 
   /// English Guyana
-  static const english_guyana = Locale._('en_GY');
+  static const en_GY = Locale._('en_GY');
 
   /// English Hong Kong
-  static const english_hong_kong = Locale._('en_HK');
+  static const en_HK = Locale._('en_HK');
 
   /// English Ireland
-  static const english_ireland = Locale._('en_IE');
+  static const en_IE = Locale._('en_IE');
 
   /// English Isle Of Man
-  static const english_isle_of_man = Locale._('en_IM');
+  static const en_IM = Locale._('en_IM');
 
   /// English India
-  static const english_india = Locale._('en_IN');
+  static const en_IN = Locale._('en_IN');
 
   /// English British Indian Ocean Territory
-  static const english_british_indian_ocean_territory = Locale._('en_IO');
+  static const en_IO = Locale._('en_IO');
 
   /// English Jersey
-  static const english_jersey = Locale._('en_JE');
+  static const en_JE = Locale._('en_JE');
 
   /// English Jamaica
-  static const english_jamaica = Locale._('en_JM');
+  static const en_JM = Locale._('en_JM');
 
   /// English Kenya
-  static const english_kenya = Locale._('en_KE');
+  static const en_KE = Locale._('en_KE');
 
   /// English Kiribati
-  static const english_kiribati = Locale._('en_KI');
+  static const en_KI = Locale._('en_KI');
 
   /// English Saint Kitts Nevis
-  static const english_saint_kitts_nevis = Locale._('en_KN');
+  static const en_KN = Locale._('en_KN');
 
   /// English Cayman Islands
-  static const english_cayman_islands = Locale._('en_KY');
+  static const en_KY = Locale._('en_KY');
 
   /// English Saint Lucia
-  static const english_saint_lucia = Locale._('en_LC');
+  static const en_LC = Locale._('en_LC');
 
   /// English Liberia
-  static const english_liberia = Locale._('en_LR');
+  static const en_LR = Locale._('en_LR');
 
   /// English Lesotho
-  static const english_lesotho = Locale._('en_LS');
+  static const en_LS = Locale._('en_LS');
 
   /// English Madagascar
-  static const english_madagascar = Locale._('en_MG');
+  static const en_MG = Locale._('en_MG');
 
   /// English Marshall Islands
-  static const english_marshall_islands = Locale._('en_MH');
+  static const en_MH = Locale._('en_MH');
 
   /// English Macau
-  static const english_macau = Locale._('en_MO');
+  static const en_MO = Locale._('en_MO');
 
   /// English Northern Mariana Islands
-  static const english_northern_mariana_islands = Locale._('en_MP');
+  static const en_MP = Locale._('en_MP');
 
   /// English Montserrat
-  static const english_montserrat = Locale._('en_MS');
+  static const en_MS = Locale._('en_MS');
 
   /// English Malta
-  static const english_malta = Locale._('en_MT');
+  static const en_MT = Locale._('en_MT');
 
   /// English Mauritius
-  static const english_mauritius = Locale._('en_MU');
+  static const en_MU = Locale._('en_MU');
 
   /// English Malawi
-  static const english_malawi = Locale._('en_MW');
+  static const en_MW = Locale._('en_MW');
 
   /// English Namibia
-  static const english_namibia = Locale._('en_NA');
+  static const en_NA = Locale._('en_NA');
 
   /// English Norfolk Island
-  static const english_norfolk_island = Locale._('en_NF');
+  static const en_NF = Locale._('en_NF');
 
   /// English Nigeria
-  static const english_nigeria = Locale._('en_NG');
+  static const en_NG = Locale._('en_NG');
 
   /// English Nauru
-  static const english_nauru = Locale._('en_NR');
+  static const en_NR = Locale._('en_NR');
 
   /// English Niue
-  static const english_niue = Locale._('en_NU');
+  static const en_NU = Locale._('en_NU');
 
   /// English New Zealand
-  static const english_new_zealand = Locale._('en_NZ');
+  static const en_NZ = Locale._('en_NZ');
 
   /// English Papua New Guinea
-  static const english_papua_new_guinea = Locale._('en_PG');
+  static const en_PG = Locale._('en_PG');
 
   /// English Philippines
-  static const english_philippines = Locale._('en_PH');
+  static const en_PH = Locale._('en_PH');
 
   /// English Pakistan
-  static const english_pakistan = Locale._('en_PK');
+  static const en_PK = Locale._('en_PK');
 
   /// English Pitcairn Islands
-  static const english_pitcairn_islands = Locale._('en_PN');
+  static const en_PN = Locale._('en_PN');
 
   /// English Puerto Rico
-  static const english_puerto_rico = Locale._('en_PR');
+  static const en_PR = Locale._('en_PR');
 
   /// English Palau
-  static const english_palau = Locale._('en_PW');
+  static const en_PW = Locale._('en_PW');
 
   /// English Rwanda
-  static const english_rwanda = Locale._('en_RW');
+  static const en_RW = Locale._('en_RW');
 
   /// English Solomon Islands
-  static const english_solomon_islands = Locale._('en_SB');
+  static const en_SB = Locale._('en_SB');
 
   /// English Seychelles
-  static const english_seychelles = Locale._('en_SC');
+  static const en_SC = Locale._('en_SC');
 
   /// English Sudan
-  static const english_sudan = Locale._('en_SD');
+  static const en_SD = Locale._('en_SD');
 
   /// English Singapore
-  static const english_singapore = Locale._('en_SG');
+  static const en_SG = Locale._('en_SG');
 
   /// English Saint Helena
-  static const english_saint_helena = Locale._('en_SH');
+  static const en_SH = Locale._('en_SH');
 
   /// English Sierra Leone
-  static const english_sierra_leone = Locale._('en_SL');
+  static const en_SL = Locale._('en_SL');
 
   /// English South Sudan
-  static const english_south_sudan = Locale._('en_SS');
+  static const en_SS = Locale._('en_SS');
 
   /// English Sint Maarten
-  static const english_sint_maarten = Locale._('en_SX');
+  static const en_SX = Locale._('en_SX');
 
   /// English Swaziland
-  static const english_swaziland = Locale._('en_SZ');
+  static const en_SZ = Locale._('en_SZ');
 
   /// English Turks Caicos Islands
-  static const english_turks_caicos_islands = Locale._('en_TC');
+  static const en_TC = Locale._('en_TC');
 
   /// English Tokelau
-  static const english_tokelau = Locale._('en_TK');
+  static const en_TK = Locale._('en_TK');
 
   /// English Tonga
-  static const english_tonga = Locale._('en_TO');
+  static const en_TO = Locale._('en_TO');
 
   /// English Trinidad Tobago
-  static const english_trinidad_tobago = Locale._('en_TT');
+  static const en_TT = Locale._('en_TT');
 
   /// English Tuvalu
-  static const english_tuvalu = Locale._('en_TV');
+  static const en_TV = Locale._('en_TV');
 
   /// English Tanzania
-  static const english_tanzania = Locale._('en_TZ');
+  static const en_TZ = Locale._('en_TZ');
 
   /// English Uganda
-  static const english_uganda = Locale._('en_UG');
+  static const en_UG = Locale._('en_UG');
 
   /// English Us Outlying Islands
-  static const english_us_outlying_islands = Locale._('en_UM');
+  static const en_UM = Locale._('en_UM');
 
   /// English United States
-  static const english_united_states = Locale._('en_US');
+  static const en_US = Locale._('en_US');
 
   /// English St Vincent Grenadines
-  static const english_st_vincent_grenadines = Locale._('en_VC');
+  static const en_VC = Locale._('en_VC');
 
   /// English British Virgin Islands
-  static const english_british_virgin_islands = Locale._('en_VG');
+  static const en_VG = Locale._('en_VG');
 
   /// English Us Virgin Islands
-  static const english_us_virgin_islands = Locale._('en_VI');
+  static const en_VI = Locale._('en_VI');
 
   /// English Vanuatu
-  static const english_vanuatu = Locale._('en_VU');
+  static const en_VU = Locale._('en_VU');
 
   /// English Samoa
-  static const english_samoa = Locale._('en_WS');
+  static const en_WS = Locale._('en_WS');
 
   /// English South Africa
-  static const english_south_africa = Locale._('en_ZA');
+  static const en_ZA = Locale._('en_ZA');
 
   /// English Zambia
-  static const english_zambia = Locale._('en_ZM');
+  static const en_ZM = Locale._('en_ZM');
 
   /// English Zimbabwe
-  static const english_zimbabwe = Locale._('en_ZW');
-
-  /// Esperanto
-  static const esperanto = Locale._('eo_');
-
-  /// Spanish
-  static const spanish = Locale._('es_');
+  static const en_ZW = Locale._('en_ZW');
 
   /// Spanish Latin America
-  static const spanish_latin_america = Locale._('es_419');
+  static const es_419 = Locale._('es_419');
 
   /// Spanish Argentina
-  static const spanish_argentina = Locale._('es_AR');
+  static const es_AR = Locale._('es_AR');
 
   /// Spanish Bolivia
-  static const spanish_bolivia = Locale._('es_BO');
+  static const es_BO = Locale._('es_BO');
 
   /// Spanish Chile
-  static const spanish_chile = Locale._('es_CL');
+  static const es_CL = Locale._('es_CL');
 
   /// Spanish Colombia
-  static const spanish_colombia = Locale._('es_CO');
+  static const es_CO = Locale._('es_CO');
 
   /// Spanish Costa Rica
-  static const spanish_costa_rica = Locale._('es_CR');
+  static const es_CR = Locale._('es_CR');
 
   /// Spanish Cuba
-  static const spanish_cuba = Locale._('es_CU');
+  static const es_CU = Locale._('es_CU');
 
   /// Spanish Dominican Republic
-  static const spanish_dominican_republic = Locale._('es_DO');
+  static const es_DO = Locale._('es_DO');
 
   /// Spanish Ceuta Melilla
-  static const spanish_ceuta_melilla = Locale._('es_EA');
+  static const es_EA = Locale._('es_EA');
 
   /// Spanish Ecuador
-  static const spanish_ecuador = Locale._('es_EC');
+  static const es_EC = Locale._('es_EC');
 
   /// Spanish Spain
-  static const spanish_spain = Locale._('es_ES');
+  static const es_ES = Locale._('es_ES');
 
   /// Spanish Equatorial Guinea
-  static const spanish_equatorial_guinea = Locale._('es_GQ');
+  static const es_GQ = Locale._('es_GQ');
 
   /// Spanish Guatemala
-  static const spanish_guatemala = Locale._('es_GT');
+  static const es_GT = Locale._('es_GT');
 
   /// Spanish Honduras
-  static const spanish_honduras = Locale._('es_HN');
+  static const es_HN = Locale._('es_HN');
 
   /// Spanish Canary Islands
-  static const spanish_canary_islands = Locale._('es_IC');
+  static const es_IC = Locale._('es_IC');
 
   /// Spanish Mexico
-  static const spanish_mexico = Locale._('es_MX');
+  static const es_MX = Locale._('es_MX');
 
   /// Spanish Nicaragua
-  static const spanish_nicaragua = Locale._('es_NI');
+  static const es_NI = Locale._('es_NI');
 
   /// Spanish Panama
-  static const spanish_panama = Locale._('es_PA');
+  static const es_PA = Locale._('es_PA');
 
   /// Spanish Peru
-  static const spanish_peru = Locale._('es_PE');
+  static const es_PE = Locale._('es_PE');
 
   /// Spanish Philippines
-  static const spanish_philippines = Locale._('es_PH');
+  static const es_PH = Locale._('es_PH');
 
   /// Spanish Puerto Rico
-  static const spanish_puerto_rico = Locale._('es_PR');
+  static const es_PR = Locale._('es_PR');
 
   /// Spanish Paraguay
-  static const spanish_paraguay = Locale._('es_PY');
+  static const es_PY = Locale._('es_PY');
 
   /// Spanish El Salvador
-  static const spanish_el_salvador = Locale._('es_SV');
+  static const es_SV = Locale._('es_SV');
 
   /// Spanish United States
-  static const spanish_united_states = Locale._('es_US');
+  static const es_US = Locale._('es_US');
 
   /// Spanish Uruguay
-  static const spanish_uruguay = Locale._('es_UY');
+  static const es_UY = Locale._('es_UY');
 
   /// Spanish Venezuela
-  static const spanish_venezuela = Locale._('es_VE');
-
-  /// Estonian
-  static const estonian = Locale._('et_');
+  static const es_VE = Locale._('es_VE');
 
   /// Estonian Estonia
-  static const estonian_estonia = Locale._('et_EE');
-
-  /// Basque
-  static const basque = Locale._('eu_');
+  static const et_EE = Locale._('et_EE');
 
   /// Basque Spain
-  static const basque_spain = Locale._('eu_ES');
-
-  /// Ewondo
-  static const ewondo = Locale._('ewo_');
+  static const eu_ES = Locale._('eu_ES');
 
   /// Ewondo Cameroon
-  static const ewondo_cameroon = Locale._('ewo_CM');
-
-  /// Persian
-  static const persian = Locale._('fa_');
+  static const ewo_CM = Locale._('ewo_CM');
 
   /// Persian Afghanistan
-  static const persian_afghanistan = Locale._('fa_AF');
+  static const fa_AF = Locale._('fa_AF');
 
   /// Persian Iran
-  static const persian_iran = Locale._('fa_IR');
-
-  /// Fulah
-  static const fulah = Locale._('ff_');
+  static const fa_IR = Locale._('fa_IR');
 
   /// Fulah Senegal
-  static const fulah_senegal = Locale._('ff_SN');
-
-  /// Finnish
-  static const finnish = Locale._('fi_');
+  static const ff_SN = Locale._('ff_SN');
 
   /// Finnish Finland
-  static const finnish_finland = Locale._('fi_FI');
-
-  /// Filipino
-  static const filipino = Locale._('fil_');
+  static const fi_FI = Locale._('fi_FI');
 
   /// Filipino Philippines
-  static const filipino_philippines = Locale._('fil_PH');
-
-  /// Faroese
-  static const faroese = Locale._('fo_');
+  static const fil_PH = Locale._('fil_PH');
 
   /// Faroese Faroe Islands
-  static const faroese_faroe_islands = Locale._('fo_FO');
-
-  /// French
-  static const french = Locale._('fr_');
+  static const fo_FO = Locale._('fo_FO');
 
   /// French Belgium
-  static const french_belgium = Locale._('fr_BE');
+  static const fr_BE = Locale._('fr_BE');
 
   /// French Burkina Faso
-  static const french_burkina_faso = Locale._('fr_BF');
+  static const fr_BF = Locale._('fr_BF');
 
   /// French Burundi
-  static const french_burundi = Locale._('fr_BI');
+  static const fr_BI = Locale._('fr_BI');
 
   /// French Benin
-  static const french_benin = Locale._('fr_BJ');
+  static const fr_BJ = Locale._('fr_BJ');
 
   /// French Saint Bartelemy
-  static const french_saint_bartelemy = Locale._('fr_BL');
+  static const fr_BL = Locale._('fr_BL');
 
   /// French Canada
-  static const french_canada = Locale._('fr_CA');
+  static const fr_CA = Locale._('fr_CA');
 
   /// French Congo Drc
-  static const french_congo_drc = Locale._('fr_CD');
+  static const fr_CD = Locale._('fr_CD');
 
   /// French Central African Republic
-  static const french_central_african_republic = Locale._('fr_CF');
+  static const fr_CF = Locale._('fr_CF');
 
   /// French Congo Republic
-  static const french_congo_republic = Locale._('fr_CG');
+  static const fr_CG = Locale._('fr_CG');
 
   /// French Switzerland
-  static const french_switzerland = Locale._('fr_CH');
+  static const fr_CH = Locale._('fr_CH');
 
   /// French Cote D Ivoire
-  static const french_cote_d_ivoire = Locale._('fr_CI');
+  static const fr_CI = Locale._('fr_CI');
 
   /// French Cameroon
-  static const french_cameroon = Locale._('fr_CM');
+  static const fr_CM = Locale._('fr_CM');
 
   /// French Djibouti
-  static const french_djibouti = Locale._('fr_DJ');
+  static const fr_DJ = Locale._('fr_DJ');
 
   /// French Algeria
-  static const french_algeria = Locale._('fr_DZ');
+  static const fr_DZ = Locale._('fr_DZ');
 
   /// French France
-  static const french_france = Locale._('fr_FR');
+  static const fr_FR = Locale._('fr_FR');
 
   /// French Gabon
-  static const french_gabon = Locale._('fr_GA');
+  static const fr_GA = Locale._('fr_GA');
 
   /// French French Guiana
-  static const french_french_guiana = Locale._('fr_GF');
+  static const fr_GF = Locale._('fr_GF');
 
   /// French Guinea
-  static const french_guinea = Locale._('fr_GN');
+  static const fr_GN = Locale._('fr_GN');
 
   /// French Guadeloupe
-  static const french_guadeloupe = Locale._('fr_GP');
+  static const fr_GP = Locale._('fr_GP');
 
   /// French Equatorial Guinea
-  static const french_equatorial_guinea = Locale._('fr_GQ');
+  static const fr_GQ = Locale._('fr_GQ');
 
   /// French Haiti
-  static const french_haiti = Locale._('fr_HT');
+  static const fr_HT = Locale._('fr_HT');
 
   /// French Comoros
-  static const french_comoros = Locale._('fr_KM');
+  static const fr_KM = Locale._('fr_KM');
 
   /// French Luxembourg
-  static const french_luxembourg = Locale._('fr_LU');
+  static const fr_LU = Locale._('fr_LU');
 
   /// French Morocco
-  static const french_morocco = Locale._('fr_MA');
+  static const fr_MA = Locale._('fr_MA');
 
   /// French Monaco
-  static const french_monaco = Locale._('fr_MC');
+  static const fr_MC = Locale._('fr_MC');
 
   /// French Saint Martin
-  static const french_saint_martin = Locale._('fr_MF');
+  static const fr_MF = Locale._('fr_MF');
 
   /// French Madagascar
-  static const french_madagascar = Locale._('fr_MG');
+  static const fr_MG = Locale._('fr_MG');
 
   /// French Mali
-  static const french_mali = Locale._('fr_ML');
+  static const fr_ML = Locale._('fr_ML');
 
   /// French Martinique
-  static const french_martinique = Locale._('fr_MQ');
+  static const fr_MQ = Locale._('fr_MQ');
 
   /// French Mauritania
-  static const french_mauritania = Locale._('fr_MR');
+  static const fr_MR = Locale._('fr_MR');
 
   /// French Mauritius
-  static const french_mauritius = Locale._('fr_MU');
+  static const fr_MU = Locale._('fr_MU');
 
   /// French New Caledonia
-  static const french_new_caledonia = Locale._('fr_NC');
+  static const fr_NC = Locale._('fr_NC');
 
   /// French Niger
-  static const french_niger = Locale._('fr_NE');
+  static const fr_NE = Locale._('fr_NE');
 
   /// French French Polynesia
-  static const french_french_polynesia = Locale._('fr_PF');
+  static const fr_PF = Locale._('fr_PF');
 
   /// French Saint Pierre Miquelon
-  static const french_saint_pierre_miquelon = Locale._('fr_PM');
+  static const fr_PM = Locale._('fr_PM');
 
   /// French Reunion
-  static const french_reunion = Locale._('fr_RE');
+  static const fr_RE = Locale._('fr_RE');
 
   /// French Rwanda
-  static const french_rwanda = Locale._('fr_RW');
+  static const fr_RW = Locale._('fr_RW');
 
   /// French Seychelles
-  static const french_seychelles = Locale._('fr_SC');
+  static const fr_SC = Locale._('fr_SC');
 
   /// French Senegal
-  static const french_senegal = Locale._('fr_SN');
+  static const fr_SN = Locale._('fr_SN');
 
   /// French Syria
-  static const french_syria = Locale._('fr_SY');
+  static const fr_SY = Locale._('fr_SY');
 
   /// French Chad
-  static const french_chad = Locale._('fr_TD');
+  static const fr_TD = Locale._('fr_TD');
 
   /// French Togo
-  static const french_togo = Locale._('fr_TG');
+  static const fr_TG = Locale._('fr_TG');
 
   /// French Tunisia
-  static const french_tunisia = Locale._('fr_TN');
+  static const fr_TN = Locale._('fr_TN');
 
   /// French Vanuatu
-  static const french_vanuatu = Locale._('fr_VU');
+  static const fr_VU = Locale._('fr_VU');
 
   /// French Wallis Futuna
-  static const french_wallis_futuna = Locale._('fr_WF');
+  static const fr_WF = Locale._('fr_WF');
 
   /// French Mayotte
-  static const french_mayotte = Locale._('fr_YT');
-
-  /// Irish
-  static const irish = Locale._('ga_');
+  static const fr_YT = Locale._('fr_YT');
 
   /// Irish Ireland
-  static const irish_ireland = Locale._('ga_IE');
-
-  /// Galician
-  static const galician = Locale._('gl_');
+  static const ga_IE = Locale._('ga_IE');
 
   /// Galician Spain
-  static const galician_spain = Locale._('gl_ES');
-
-  /// Swiss German
-  static const swiss_german = Locale._('gsw_');
+  static const gl_ES = Locale._('gl_ES');
 
   /// Swiss German Switzerland
-  static const swiss_german_switzerland = Locale._('gsw_CH');
+  static const gsw_CH = Locale._('gsw_CH');
 
   /// Swiss German Liechtenstein
-  static const swiss_german_liechtenstein = Locale._('gsw_LI');
-
-  /// Gujarati
-  static const gujarati = Locale._('gu_');
+  static const gsw_LI = Locale._('gsw_LI');
 
   /// Gujarati India
-  static const gujarati_india = Locale._('gu_IN');
-
-  /// Gusii
-  static const gusii = Locale._('guz_');
+  static const gu_IN = Locale._('gu_IN');
 
   /// Gusii Kenya
-  static const gusii_kenya = Locale._('guz_KE');
-
-  /// Manx
-  static const manx = Locale._('gv_');
+  static const guz_KE = Locale._('guz_KE');
 
   /// Manx Isle Of Man
-  static const manx_isle_of_man = Locale._('gv_IM');
-
-  /// Hausa
-  static const hausa = Locale._('ha_');
-
-  /// Hausa Latin
-  static const hausa_latin = Locale._('ha_');
+  static const gv_IM = Locale._('gv_IM');
 
   /// Hausa Latin Ghana
-  static const hausa_latin_ghana = Locale._('ha_GH');
+  static const ha_GH = Locale._('ha_GH');
 
   /// Hausa Latin Niger
-  static const hausa_latin_niger = Locale._('ha_NE');
+  static const ha_NE = Locale._('ha_NE');
 
   /// Hausa Latin Nigeria
-  static const hausa_latin_nigeria = Locale._('ha_NG');
-
-  /// Hawaiian
-  static const hawaiian = Locale._('haw_');
+  static const ha_NG = Locale._('ha_NG');
 
   /// Hawaiian United States
-  static const hawaiian_united_states = Locale._('haw_US');
-
-  /// Hebrew
-  static const hebrew = Locale._('iw_');
+  static const haw_US = Locale._('haw_US');
 
   /// Hebrew Israel
-  static const hebrew_israel = Locale._('iw_IL');
-
-  /// Hindi
-  static const hindi = Locale._('hi_');
+  static const iw_IL = Locale._('iw_IL');
 
   /// Hindi India
-  static const hindi_india = Locale._('hi_IN');
-
-  /// Croatian
-  static const croatian = Locale._('hr_');
+  static const hi_IN = Locale._('hi_IN');
 
   /// Croatian Bosnia Herzegovina
-  static const croatian_bosnia_herzegovina = Locale._('hr_BA');
+  static const hr_BA = Locale._('hr_BA');
 
   /// Croatian Croatia
-  static const croatian_croatia = Locale._('hr_HR');
-
-  /// Hungarian
-  static const hungarian = Locale._('hu_');
+  static const hr_HR = Locale._('hr_HR');
 
   /// Hungarian Hungary
-  static const hungarian_hungary = Locale._('hu_HU');
-
-  /// Armenian
-  static const armenian = Locale._('hy_');
+  static const hu_HU = Locale._('hu_HU');
 
   /// Armenian Armenia
-  static const armenian_armenia = Locale._('hy_AM');
-
-  /// Indonesian
-  static const indonesian = Locale._('in_');
+  static const hy_AM = Locale._('hy_AM');
 
   /// Indonesian Indonesia
-  static const indonesian_indonesia = Locale._('in_ID');
-
-  /// Igbo
-  static const igbo = Locale._('ig_');
+  static const in_ID = Locale._('in_ID');
 
   /// Igbo Nigeria
-  static const igbo_nigeria = Locale._('ig_NG');
-
-  /// Sichuan Yi
-  static const sichuan_yi = Locale._('ii_');
+  static const ig_NG = Locale._('ig_NG');
 
   /// Sichuan Yi China
-  static const sichuan_yi_china = Locale._('ii_CN');
-
-  /// Icelandic
-  static const icelandic = Locale._('is_');
+  static const ii_CN = Locale._('ii_CN');
 
   /// Icelandic Iceland
-  static const icelandic_iceland = Locale._('is_IS');
-
-  /// Italian
-  static const italian = Locale._('it_');
+  static const is_IS = Locale._('is_IS');
 
   /// Italian Switzerland
-  static const italian_switzerland = Locale._('it_CH');
+  static const it_CH = Locale._('it_CH');
 
   /// Italian Italy
-  static const italian_italy = Locale._('it_IT');
+  static const it_IT = Locale._('it_IT');
 
   /// Italian San Marino
-  static const italian_san_marino = Locale._('it_SM');
-
-  /// Japanese
-  static const japanese = Locale._('ja_');
+  static const it_SM = Locale._('it_SM');
 
   /// Japanese Japan
-  static const japanese_japan = Locale._('ja_JP');
-
-  /// Ngomba
-  static const ngomba = Locale._('jgo_');
+  static const ja_JP = Locale._('ja_JP');
 
   /// Ngomba Cameroon
-  static const ngomba_cameroon = Locale._('jgo_CM');
-
-  /// Machame
-  static const machame = Locale._('jmc_');
+  static const jgo_CM = Locale._('jgo_CM');
 
   /// Machame Tanzania
-  static const machame_tanzania = Locale._('jmc_TZ');
-
-  /// Georgian
-  static const georgian = Locale._('ka_');
+  static const jmc_TZ = Locale._('jmc_TZ');
 
   /// Georgian Georgia
-  static const georgian_georgia = Locale._('ka_GE');
-
-  /// Kabyle
-  static const kabyle = Locale._('kab_');
+  static const ka_GE = Locale._('ka_GE');
 
   /// Kabyle Algeria
-  static const kabyle_algeria = Locale._('kab_DZ');
-
-  /// Kamba
-  static const kamba = Locale._('kam_');
+  static const kab_DZ = Locale._('kab_DZ');
 
   /// Kamba Kenya
-  static const kamba_kenya = Locale._('kam_KE');
-
-  /// Makonde
-  static const makonde = Locale._('kde_');
+  static const kam_KE = Locale._('kam_KE');
 
   /// Makonde Tanzania
-  static const makonde_tanzania = Locale._('kde_TZ');
-
-  /// Kabuverdianu
-  static const kabuverdianu = Locale._('kea_');
+  static const kde_TZ = Locale._('kde_TZ');
 
   /// Kabuverdianu Cape Verde
-  static const kabuverdianu_cape_verde = Locale._('kea_CV');
-
-  /// Koyra Chiini
-  static const koyra_chiini = Locale._('khq_');
+  static const kea_CV = Locale._('kea_CV');
 
   /// Koyra Chiini Mali
-  static const koyra_chiini_mali = Locale._('khq_ML');
-
-  /// Kikuyu
-  static const kikuyu = Locale._('ki_');
+  static const khq_ML = Locale._('khq_ML');
 
   /// Kikuyu Kenya
-  static const kikuyu_kenya = Locale._('ki_KE');
-
-  /// Kazakh
-  static const kazakh = Locale._('kk_');
-
-  /// Kazakh Cyrillic
-  static const kazakh_cyrillic = Locale._('kk_');
+  static const ki_KE = Locale._('ki_KE');
 
   /// Kazakh Cyrillic Kazakhstan
-  static const kazakh_cyrillic_kazakhstan = Locale._('kk_KZ');
-
-  /// Kako
-  static const kako = Locale._('kkj_');
+  static const kk_KZ = Locale._('kk_KZ');
 
   /// Kako Cameroon
-  static const kako_cameroon = Locale._('kkj_CM');
-
-  /// Kalaallisut
-  static const kalaallisut = Locale._('kl_');
+  static const kkj_CM = Locale._('kkj_CM');
 
   /// Kalaallisut Greenland
-  static const kalaallisut_greenland = Locale._('kl_GL');
-
-  /// Kalenjin
-  static const kalenjin = Locale._('kln_');
+  static const kl_GL = Locale._('kl_GL');
 
   /// Kalenjin Kenya
-  static const kalenjin_kenya = Locale._('kln_KE');
-
-  /// Khmer
-  static const khmer = Locale._('km_');
+  static const kln_KE = Locale._('kln_KE');
 
   /// Khmer Cambodia
-  static const khmer_cambodia = Locale._('km_KH');
-
-  /// Kannada
-  static const kannada = Locale._('kn_');
+  static const km_KH = Locale._('km_KH');
 
   /// Kannada India
-  static const kannada_india = Locale._('kn_IN');
-
-  /// Korean
-  static const korean = Locale._('ko_');
+  static const kn_IN = Locale._('kn_IN');
 
   /// Korean North Korea
-  static const korean_north_korea = Locale._('ko_KP');
+  static const ko_KP = Locale._('ko_KP');
 
   /// Korean South Korea
-  static const korean_south_korea = Locale._('ko_KR');
-
-  /// Konkani
-  static const konkani = Locale._('kok_');
+  static const ko_KR = Locale._('ko_KR');
 
   /// Konkani India
-  static const konkani_india = Locale._('kok_IN');
-
-  /// Kashmiri
-  static const kashmiri = Locale._('ks_');
-
-  /// Kashmiri Arabic
-  static const kashmiri_arabic = Locale._('ks_');
+  static const kok_IN = Locale._('kok_IN');
 
   /// Kashmiri Arabic India
-  static const kashmiri_arabic_india = Locale._('ks_IN');
-
-  /// Shambala
-  static const shambala = Locale._('ksb_');
+  static const ks_IN = Locale._('ks_IN');
 
   /// Shambala Tanzania
-  static const shambala_tanzania = Locale._('ksb_TZ');
-
-  /// Bafia
-  static const bafia = Locale._('ksf_');
+  static const ksb_TZ = Locale._('ksb_TZ');
 
   /// Bafia Cameroon
-  static const bafia_cameroon = Locale._('ksf_CM');
-
-  /// Cornish
-  static const cornish = Locale._('kw_');
+  static const ksf_CM = Locale._('ksf_CM');
 
   /// Cornish United Kingdom
-  static const cornish_united_kingdom = Locale._('kw_GB');
-
-  /// Kyrgyz
-  static const kyrgyz = Locale._('ky_');
-
-  /// Kyrgyz Cyrillic
-  static const kyrgyz_cyrillic = Locale._('ky_');
+  static const kw_GB = Locale._('kw_GB');
 
   /// Kyrgyz Cyrillic Kyrgyzstan
-  static const kyrgyz_cyrillic_kyrgyzstan = Locale._('ky_KG');
-
-  /// Langi
-  static const langi = Locale._('lag_');
+  static const ky_KG = Locale._('ky_KG');
 
   /// Langi Tanzania
-  static const langi_tanzania = Locale._('lag_TZ');
-
-  /// Ganda
-  static const ganda = Locale._('lg_');
+  static const lag_TZ = Locale._('lag_TZ');
 
   /// Ganda Uganda
-  static const ganda_uganda = Locale._('lg_UG');
-
-  /// Lakota
-  static const lakota = Locale._('lkt_');
+  static const lg_UG = Locale._('lg_UG');
 
   /// Lakota United States
-  static const lakota_united_states = Locale._('lkt_US');
-
-  /// Lingala
-  static const lingala = Locale._('ln_');
+  static const lkt_US = Locale._('lkt_US');
 
   /// Lingala Angola
-  static const lingala_angola = Locale._('ln_AO');
+  static const ln_AO = Locale._('ln_AO');
 
   /// Lingala Congo Drc
-  static const lingala_congo_drc = Locale._('ln_CD');
+  static const ln_CD = Locale._('ln_CD');
 
   /// Lingala Central African Republic
-  static const lingala_central_african_republic = Locale._('ln_CF');
+  static const ln_CF = Locale._('ln_CF');
 
   /// Lingala Congo Republic
-  static const lingala_congo_republic = Locale._('ln_CG');
-
-  /// Lao
-  static const lao = Locale._('lo_');
+  static const ln_CG = Locale._('ln_CG');
 
   /// Lao Laos
-  static const lao_laos = Locale._('lo_LA');
-
-  /// Lithuanian
-  static const lithuanian = Locale._('lt_');
+  static const lo_LA = Locale._('lo_LA');
 
   /// Lithuanian Lithuania
-  static const lithuanian_lithuania = Locale._('lt_LT');
-
-  /// Luba Katanga
-  static const luba_katanga = Locale._('lu_');
+  static const lt_LT = Locale._('lt_LT');
 
   /// Luba Katanga Congo Drc
-  static const luba_katanga_congo_drc = Locale._('lu_CD');
-
-  /// Luo
-  static const luo = Locale._('luo_');
+  static const lu_CD = Locale._('lu_CD');
 
   /// Luo Kenya
-  static const luo_kenya = Locale._('luo_KE');
-
-  /// Luyia
-  static const luyia = Locale._('luy_');
+  static const luo_KE = Locale._('luo_KE');
 
   /// Luyia Kenya
-  static const luyia_kenya = Locale._('luy_KE');
-
-  /// Latvian
-  static const latvian = Locale._('lv_');
+  static const luy_KE = Locale._('luy_KE');
 
   /// Latvian Latvia
-  static const latvian_latvia = Locale._('lv_LV');
-
-  /// Masai
-  static const masai = Locale._('mas_');
+  static const lv_LV = Locale._('lv_LV');
 
   /// Masai Kenya
-  static const masai_kenya = Locale._('mas_KE');
+  static const mas_KE = Locale._('mas_KE');
 
   /// Masai Tanzania
-  static const masai_tanzania = Locale._('mas_TZ');
-
-  /// Meru
-  static const meru = Locale._('mer_');
+  static const mas_TZ = Locale._('mas_TZ');
 
   /// Meru Kenya
-  static const meru_kenya = Locale._('mer_KE');
-
-  /// Morisyen
-  static const morisyen = Locale._('mfe_');
+  static const mer_KE = Locale._('mer_KE');
 
   /// Morisyen Mauritius
-  static const morisyen_mauritius = Locale._('mfe_MU');
-
-  /// Malagasy
-  static const malagasy = Locale._('mg_');
+  static const mfe_MU = Locale._('mfe_MU');
 
   /// Malagasy Madagascar
-  static const malagasy_madagascar = Locale._('mg_MG');
-
-  /// Makhuwa Meetto
-  static const makhuwa_meetto = Locale._('mgh_');
+  static const mg_MG = Locale._('mg_MG');
 
   /// Makhuwa Meetto Mozambique
-  static const makhuwa_meetto_mozambique = Locale._('mgh_MZ');
-
-  /// Meta
-  static const meta = Locale._('mgo_');
+  static const mgh_MZ = Locale._('mgh_MZ');
 
   /// Meta Cameroon
-  static const meta_cameroon = Locale._('mgo_CM');
-
-  /// Macedonian
-  static const macedonian = Locale._('mk_');
+  static const mgo_CM = Locale._('mgo_CM');
 
   /// Macedonian Macedonia Fyrom
-  static const macedonian_macedonia_fyrom = Locale._('mk_MK');
-
-  /// Malayalam
-  static const malayalam = Locale._('ml_');
+  static const mk_MK = Locale._('mk_MK');
 
   /// Malayalam India
-  static const malayalam_india = Locale._('ml_IN');
-
-  /// Mongolian
-  static const mongolian = Locale._('mn_');
-
-  /// Mongolian Cyrillic
-  static const mongolian_cyrillic = Locale._('mn_');
+  static const ml_IN = Locale._('ml_IN');
 
   /// Mongolian Cyrillic Mongolia
-  static const mongolian_cyrillic_mongolia = Locale._('mn_MN');
-
-  /// Marathi
-  static const marathi = Locale._('mr_');
+  static const mn_MN = Locale._('mn_MN');
 
   /// Marathi India
-  static const marathi_india = Locale._('mr_IN');
-
-  /// Malay
-  static const malay = Locale._('ms_');
-
-  /// Malay Latin
-  static const malay_latin = Locale._('ms_');
+  static const mr_IN = Locale._('mr_IN');
 
   /// Malay Latin Brunei
-  static const malay_latin_brunei = Locale._('ms_BN');
+  static const ms_BN = Locale._('ms_BN');
 
   /// Malay Latin Malaysia
-  static const malay_latin_malaysia = Locale._('ms_MY');
+  static const ms_MY = Locale._('ms_MY');
 
   /// Malay Latin Singapore
-  static const malay_latin_singapore = Locale._('ms_SG');
-
-  /// Maltese
-  static const maltese = Locale._('mt_');
+  static const ms_SG = Locale._('ms_SG');
 
   /// Maltese Malta
-  static const maltese_malta = Locale._('mt_MT');
-
-  /// Mundang
-  static const mundang = Locale._('mua_');
+  static const mt_MT = Locale._('mt_MT');
 
   /// Mundang Cameroon
-  static const mundang_cameroon = Locale._('mua_CM');
-
-  /// Burmese
-  static const burmese = Locale._('my_');
+  static const mua_CM = Locale._('mua_CM');
 
   /// Burmese Myanmar Burma
-  static const burmese_myanmar_burma = Locale._('my_MM');
-
-  /// Nama
-  static const nama = Locale._('naq_');
+  static const my_MM = Locale._('my_MM');
 
   /// Nama Namibia
-  static const nama_namibia = Locale._('naq_NA');
-
-  /// Norwegian Bokmal
-  static const norwegian_bokmal = Locale._('nb_');
+  static const naq_NA = Locale._('naq_NA');
 
   /// Norwegian Bokmal Norway
-  static const norwegian_bokmal_norway = Locale._('nb_NO');
+  static const nb_NO = Locale._('nb_NO');
 
   /// Norwegian Bokmal Svalbard Jan Mayen
-  static const norwegian_bokmal_svalbard_jan_mayen = Locale._('nb_SJ');
-
-  /// North Ndebele
-  static const north_ndebele = Locale._('nd_');
+  static const nb_SJ = Locale._('nb_SJ');
 
   /// North Ndebele Zimbabwe
-  static const north_ndebele_zimbabwe = Locale._('nd_ZW');
-
-  /// Nepali
-  static const nepali = Locale._('ne_');
+  static const nd_ZW = Locale._('nd_ZW');
 
   /// Nepali India
-  static const nepali_india = Locale._('ne_IN');
+  static const ne_IN = Locale._('ne_IN');
 
   /// Nepali Nepal
-  static const nepali_nepal = Locale._('ne_NP');
-
-  /// Dutch
-  static const dutch = Locale._('nl_');
+  static const ne_NP = Locale._('ne_NP');
 
   /// Dutch Aruba
-  static const dutch_aruba = Locale._('nl_AW');
+  static const nl_AW = Locale._('nl_AW');
 
   /// Dutch Belgium
-  static const dutch_belgium = Locale._('nl_BE');
+  static const nl_BE = Locale._('nl_BE');
 
   /// Dutch Caribbean Netherlands
-  static const dutch_caribbean_netherlands = Locale._('nl_BQ');
+  static const nl_BQ = Locale._('nl_BQ');
 
   /// Dutch Curacao
-  static const dutch_curacao = Locale._('nl_CW');
+  static const nl_CW = Locale._('nl_CW');
 
   /// Dutch Netherlands
-  static const dutch_netherlands = Locale._('nl_NL');
+  static const nl_NL = Locale._('nl_NL');
 
   /// Dutch Suriname
-  static const dutch_suriname = Locale._('nl_SR');
+  static const nl_SR = Locale._('nl_SR');
 
   /// Dutch Sint Maarten
-  static const dutch_sint_maarten = Locale._('nl_SX');
-
-  /// Kwasio
-  static const kwasio = Locale._('nmg_');
+  static const nl_SX = Locale._('nl_SX');
 
   /// Kwasio Cameroon
-  static const kwasio_cameroon = Locale._('nmg_CM');
-
-  /// Norwegian Nynorsk
-  static const norwegian_nynorsk = Locale._('nn_');
+  static const nmg_CM = Locale._('nmg_CM');
 
   /// Norwegian Nynorsk Norway
-  static const norwegian_nynorsk_norway = Locale._('nn_NO');
-
-  /// Ngiemboon
-  static const ngiemboon = Locale._('nnh_');
+  static const nn_NO = Locale._('nn_NO');
 
   /// Ngiemboon Cameroon
-  static const ngiemboon_cameroon = Locale._('nnh_CM');
-
-  /// Nuer
-  static const nuer = Locale._('nus_');
+  static const nnh_CM = Locale._('nnh_CM');
 
   /// Nuer Sudan
-  static const nuer_sudan = Locale._('nus_SD');
-
-  /// Nyankole
-  static const nyankole = Locale._('nyn_');
+  static const nus_SD = Locale._('nus_SD');
 
   /// Nyankole Uganda
-  static const nyankole_uganda = Locale._('nyn_UG');
-
-  /// Oromo
-  static const oromo = Locale._('om_');
+  static const nyn_UG = Locale._('nyn_UG');
 
   /// Oromo Ethiopia
-  static const oromo_ethiopia = Locale._('om_ET');
+  static const om_ET = Locale._('om_ET');
 
   /// Oromo Kenya
-  static const oromo_kenya = Locale._('om_KE');
-
-  /// Oriya
-  static const oriya = Locale._('or_');
+  static const om_KE = Locale._('om_KE');
 
   /// Oriya India
-  static const oriya_india = Locale._('or_IN');
-
-  /// Punjabi
-  static const punjabi = Locale._('pa_');
-
-  /// Punjabi Arabic
-  static const punjabi_arabic = Locale._('pa_');
+  static const or_IN = Locale._('or_IN');
 
   /// Punjabi Arabic Pakistan
-  static const punjabi_arabic_pakistan = Locale._('pa_PK');
-
-  /// Punjabi Gurmukhi
-  static const punjabi_gurmukhi = Locale._('pa_');
+  static const pa_PK = Locale._('pa_PK');
 
   /// Punjabi Gurmukhi India
-  static const punjabi_gurmukhi_india = Locale._('pa_IN');
-
-  /// Polish
-  static const polish = Locale._('pl_');
+  static const pa_IN = Locale._('pa_IN');
 
   /// Polish Poland
-  static const polish_poland = Locale._('pl_PL');
-
-  /// Pashto
-  static const pashto = Locale._('ps_');
+  static const pl_PL = Locale._('pl_PL');
 
   /// Pashto Afghanistan
-  static const pashto_afghanistan = Locale._('ps_AF');
-
-  /// Portuguese
-  static const portuguese = Locale._('pt_');
+  static const ps_AF = Locale._('ps_AF');
 
   /// Portuguese Angola
-  static const portuguese_angola = Locale._('pt_AO');
+  static const pt_AO = Locale._('pt_AO');
 
   /// Portuguese Brazil
-  static const portuguese_brazil = Locale._('pt_BR');
+  static const pt_BR = Locale._('pt_BR');
 
   /// Portuguese Cape Verde
-  static const portuguese_cape_verde = Locale._('pt_CV');
+  static const pt_CV = Locale._('pt_CV');
 
   /// Portuguese Guinea Bissau
-  static const portuguese_guinea_bissau = Locale._('pt_GW');
+  static const pt_GW = Locale._('pt_GW');
 
   /// Portuguese Macau
-  static const portuguese_macau = Locale._('pt_MO');
+  static const pt_MO = Locale._('pt_MO');
 
   /// Portuguese Mozambique
-  static const portuguese_mozambique = Locale._('pt_MZ');
+  static const pt_MZ = Locale._('pt_MZ');
 
   /// Portuguese Portugal
-  static const portuguese_portugal = Locale._('pt_PT');
+  static const pt_PT = Locale._('pt_PT');
 
   /// Portuguese Sao Tome Principe
-  static const portuguese_sao_tome_principe = Locale._('pt_ST');
+  static const pt_ST = Locale._('pt_ST');
 
   /// Portuguese Timor Leste
-  static const portuguese_timor_leste = Locale._('pt_TL');
-
-  /// Romansh
-  static const romansh = Locale._('rm_');
+  static const pt_TL = Locale._('pt_TL');
 
   /// Romansh Switzerland
-  static const romansh_switzerland = Locale._('rm_CH');
-
-  /// Rundi
-  static const rundi = Locale._('rn_');
+  static const rm_CH = Locale._('rm_CH');
 
   /// Rundi Burundi
-  static const rundi_burundi = Locale._('rn_BI');
-
-  /// Romanian
-  static const romanian = Locale._('ro_');
+  static const rn_BI = Locale._('rn_BI');
 
   /// Romanian Moldova
-  static const romanian_moldova = Locale._('ro_MD');
+  static const ro_MD = Locale._('ro_MD');
 
   /// Romanian Romania
-  static const romanian_romania = Locale._('ro_RO');
-
-  /// Rombo
-  static const rombo = Locale._('rof_');
+  static const ro_RO = Locale._('ro_RO');
 
   /// Rombo Tanzania
-  static const rombo_tanzania = Locale._('rof_TZ');
-
-  /// Russian
-  static const russian = Locale._('ru_');
+  static const rof_TZ = Locale._('rof_TZ');
 
   /// Russian Belarus
-  static const russian_belarus = Locale._('ru_BY');
+  static const ru_BY = Locale._('ru_BY');
 
   /// Russian Kyrgyzstan
-  static const russian_kyrgyzstan = Locale._('ru_KG');
+  static const ru_KG = Locale._('ru_KG');
 
   /// Russian Kazakhstan
-  static const russian_kazakhstan = Locale._('ru_KZ');
+  static const ru_KZ = Locale._('ru_KZ');
 
   /// Russian Moldova
-  static const russian_moldova = Locale._('ru_MD');
+  static const ru_MD = Locale._('ru_MD');
 
   /// Russian Russia
-  static const russian_russia = Locale._('ru_RU');
+  static const ru_RU = Locale._('ru_RU');
 
   /// Russian Ukraine
-  static const russian_ukraine = Locale._('ru_UA');
-
-  /// Kinyarwanda
-  static const kinyarwanda = Locale._('rw_');
+  static const ru_UA = Locale._('ru_UA');
 
   /// Kinyarwanda Rwanda
-  static const kinyarwanda_rwanda = Locale._('rw_RW');
-
-  /// Rwa
-  static const rwa = Locale._('rwk_');
+  static const rw_RW = Locale._('rw_RW');
 
   /// Rwa Tanzania
-  static const rwa_tanzania = Locale._('rwk_TZ');
-
-  /// Samburu
-  static const samburu = Locale._('saq_');
+  static const rwk_TZ = Locale._('rwk_TZ');
 
   /// Samburu Kenya
-  static const samburu_kenya = Locale._('saq_KE');
-
-  /// Sangu
-  static const sangu = Locale._('sbp_');
+  static const saq_KE = Locale._('saq_KE');
 
   /// Sangu Tanzania
-  static const sangu_tanzania = Locale._('sbp_TZ');
-
-  /// Sena
-  static const sena = Locale._('seh_');
+  static const sbp_TZ = Locale._('sbp_TZ');
 
   /// Sena Mozambique
-  static const sena_mozambique = Locale._('seh_MZ');
-
-  /// Koyraboro Senni
-  static const koyraboro_senni = Locale._('ses_');
+  static const seh_MZ = Locale._('seh_MZ');
 
   /// Koyraboro Senni Mali
-  static const koyraboro_senni_mali = Locale._('ses_ML');
-
-  /// Sango
-  static const sango = Locale._('sg_');
+  static const ses_ML = Locale._('ses_ML');
 
   /// Sango Central African Republic
-  static const sango_central_african_republic = Locale._('sg_CF');
+  static const sg_CF = Locale._('sg_CF');
 
-  /// Tachelhit
-  static const tachelhit = Locale._('shi_');
-
-  /// Tachelhit Latin
-  static const tachelhit_latin = Locale._('shi_');
-
-  /// Tachelhit Latin Morocco
-  static const tachelhit_latin_morocco = Locale._('shi_MA');
-
-  /// Tachelhit Tifinagh
-  static const tachelhit_tifinagh = Locale._('shi_');
-
-  /// Tachelhit Tifinagh Morocco
-  static const tachelhit_tifinagh_morocco = Locale._('shi_MA');
-
-  /// Sinhala
-  static const sinhala = Locale._('si_');
+  /// Tachelhit Morocco (Tifinagh/Latin)
+  static const shi_MA = Locale._('shi_MA');
 
   /// Sinhala Sri Lanka
-  static const sinhala_sri_lanka = Locale._('si_LK');
-
-  /// Slovak
-  static const slovak = Locale._('sk_');
+  static const si_LK = Locale._('si_LK');
 
   /// Slovak Slovakia
-  static const slovak_slovakia = Locale._('sk_SK');
-
-  /// Slovenian
-  static const slovenian = Locale._('sl_');
+  static const sk_SK = Locale._('sk_SK');
 
   /// Slovenian Slovenia
-  static const slovenian_slovenia = Locale._('sl_SI');
-
-  /// Shona
-  static const shona = Locale._('sn_');
+  static const sl_SI = Locale._('sl_SI');
 
   /// Shona Zimbabwe
-  static const shona_zimbabwe = Locale._('sn_ZW');
-
-  /// Somali
-  static const somali = Locale._('so_');
+  static const sn_ZW = Locale._('sn_ZW');
 
   /// Somali Djibouti
-  static const somali_djibouti = Locale._('so_DJ');
+  static const so_DJ = Locale._('so_DJ');
 
   /// Somali Ethiopia
-  static const somali_ethiopia = Locale._('so_ET');
+  static const so_ET = Locale._('so_ET');
 
   /// Somali Kenya
-  static const somali_kenya = Locale._('so_KE');
+  static const so_KE = Locale._('so_KE');
 
   /// Somali Somalia
-  static const somali_somalia = Locale._('so_SO');
-
-  /// Albanian
-  static const albanian = Locale._('sq_');
+  static const so_SO = Locale._('so_SO');
 
   /// Albanian Albania
-  static const albanian_albania = Locale._('sq_AL');
+  static const sq_AL = Locale._('sq_AL');
 
   /// Albanian Macedonia Fyrom
-  static const albanian_macedonia_fyrom = Locale._('sq_MK');
+  static const sq_MK = Locale._('sq_MK');
 
   /// Albanian Kosovo
-  static const albanian_kosovo = Locale._('sq_XK');
+  static const sq_XK = Locale._('sq_XK');
 
-  /// Serbian
-  static const serbian = Locale._('sr_');
+  /// Serbian Bosnia Herzegovina (Cyrillic/Latin)
+  static const sr_BA = Locale._('sr_BA');
 
-  /// Serbian Cyrillic
-  static const serbian_cyrillic = Locale._('sr_');
+  /// Serbian Montenegro (Cyrillic/Latin)
+  static const sr_ME = Locale._('sr_ME');
 
-  /// Serbian Cyrillic Bosnia Herzegovina
-  static const serbian_cyrillic_bosnia_herzegovina = Locale._('sr_BA');
+  /// Serbian Serbia (Cyrillic/Latin)
+  static const sr_RS = Locale._('sr_RS');
 
-  /// Serbian Cyrillic Montenegro
-  static const serbian_cyrillic_montenegro = Locale._('sr_ME');
-
-  /// Serbian Cyrillic Serbia
-  static const serbian_cyrillic_serbia = Locale._('sr_RS');
-
-  /// Serbian Cyrillic Kosovo
-  static const serbian_cyrillic_kosovo = Locale._('sr_XK');
-
-  /// Serbian Latin
-  static const serbian_latin = Locale._('sr_');
-
-  /// Serbian Latin Bosnia Herzegovina
-  static const serbian_latin_bosnia_herzegovina = Locale._('sr_BA');
-
-  /// Serbian Latin Montenegro
-  static const serbian_latin_montenegro = Locale._('sr_ME');
-
-  /// Serbian Latin Serbia
-  static const serbian_latin_serbia = Locale._('sr_RS');
-
-  /// Serbian Latin Kosovo
-  static const serbian_latin_kosovo = Locale._('sr_XK');
-
-  /// Swedish
-  static const swedish = Locale._('sv_');
+  /// Serbian Kosovo (Cyrillic/Latin)
+  static const sr_XK = Locale._('sr_XK');
 
   /// Swedish Aland Islands
-  static const swedish_aland_islands = Locale._('sv_AX');
+  static const sv_AX = Locale._('sv_AX');
 
   /// Swedish Finland
-  static const swedish_finland = Locale._('sv_FI');
+  static const sv_FI = Locale._('sv_FI');
 
   /// Swedish Sweden
-  static const swedish_sweden = Locale._('sv_SE');
-
-  /// Swahili
-  static const swahili = Locale._('sw_');
+  static const sv_SE = Locale._('sv_SE');
 
   /// Swahili Kenya
-  static const swahili_kenya = Locale._('sw_KE');
+  static const sw_KE = Locale._('sw_KE');
 
   /// Swahili Tanzania
-  static const swahili_tanzania = Locale._('sw_TZ');
+  static const sw_TZ = Locale._('sw_TZ');
 
   /// Swahili Uganda
-  static const swahili_uganda = Locale._('sw_UG');
-
-  /// Congo Swahili
-  static const congo_swahili = Locale._('swc_');
+  static const sw_UG = Locale._('sw_UG');
 
   /// Congo Swahili Congo Drc
-  static const congo_swahili_congo_drc = Locale._('swc_CD');
-
-  /// Tamil
-  static const tamil = Locale._('ta_');
+  static const swc_CD = Locale._('swc_CD');
 
   /// Tamil India
-  static const tamil_india = Locale._('ta_IN');
+  static const ta_IN = Locale._('ta_IN');
 
   /// Tamil Sri Lanka
-  static const tamil_sri_lanka = Locale._('ta_LK');
+  static const ta_LK = Locale._('ta_LK');
 
   /// Tamil Malaysia
-  static const tamil_malaysia = Locale._('ta_MY');
+  static const ta_MY = Locale._('ta_MY');
 
   /// Tamil Singapore
-  static const tamil_singapore = Locale._('ta_SG');
-
-  /// Telugu
-  static const telugu = Locale._('te_');
+  static const ta_SG = Locale._('ta_SG');
 
   /// Telugu India
-  static const telugu_india = Locale._('te_IN');
-
-  /// Teso
-  static const teso = Locale._('teo_');
+  static const te_IN = Locale._('te_IN');
 
   /// Teso Kenya
-  static const teso_kenya = Locale._('teo_KE');
+  static const teo_KE = Locale._('teo_KE');
 
   /// Teso Uganda
-  static const teso_uganda = Locale._('teo_UG');
-
-  /// Thai
-  static const thai = Locale._('th_');
+  static const teo_UG = Locale._('teo_UG');
 
   /// Thai Thailand
-  static const thai_thailand = Locale._('th_TH');
-
-  /// Tigrinya
-  static const tigrinya = Locale._('ti_');
+  static const th_TH = Locale._('th_TH');
 
   /// Tigrinya Eritrea
-  static const tigrinya_eritrea = Locale._('ti_ER');
+  static const ti_ER = Locale._('ti_ER');
 
   /// Tigrinya Ethiopia
-  static const tigrinya_ethiopia = Locale._('ti_ET');
-
-  /// Tongan
-  static const tongan = Locale._('to_');
+  static const ti_ET = Locale._('ti_ET');
 
   /// Tongan Tonga
-  static const tongan_tonga = Locale._('to_TO');
-
-  /// Turkish
-  static const turkish = Locale._('tr_');
+  static const to_TO = Locale._('to_TO');
 
   /// Turkish Cyprus
-  static const turkish_cyprus = Locale._('tr_CY');
+  static const tr_CY = Locale._('tr_CY');
 
   /// Turkish Turkey
-  static const turkish_turkey = Locale._('tr_TR');
-
-  /// Tasawaq
-  static const tasawaq = Locale._('twq_');
+  static const tr_TR = Locale._('tr_TR');
 
   /// Tasawaq Niger
-  static const tasawaq_niger = Locale._('twq_NE');
-
-  /// Central Atlas Tamazight
-  static const central_atlas_tamazight = Locale._('tzm_');
-
-  /// Central Atlas Tamazight Latin
-  static const central_atlas_tamazight_latin = Locale._('tzm_');
+  static const twq_NE = Locale._('twq_NE');
 
   /// Central Atlas Tamazight Latin Morocco
-  static const central_atlas_tamazight_latin_morocco = Locale._('tzm_MA');
-
-  /// Uyghur
-  static const uyghur = Locale._('ug_');
-
-  /// Uyghur Arabic
-  static const uyghur_arabic = Locale._('ug_');
+  static const tzm_MA = Locale._('tzm_MA');
 
   /// Uyghur Arabic China
-  static const uyghur_arabic_china = Locale._('ug_CN');
-
-  /// Ukrainian
-  static const ukrainian = Locale._('uk_');
+  static const ug_CN = Locale._('ug_CN');
 
   /// Ukrainian Ukraine
-  static const ukrainian_ukraine = Locale._('uk_UA');
-
-  /// Urdu
-  static const urdu = Locale._('ur_');
+  static const uk_UA = Locale._('uk_UA');
 
   /// Urdu India
-  static const urdu_india = Locale._('ur_IN');
+  static const ur_IN = Locale._('ur_IN');
 
   /// Urdu Pakistan
-  static const urdu_pakistan = Locale._('ur_PK');
-
-  /// Uzbek
-  static const uzbek = Locale._('uz_');
-
-  /// Uzbek Arabic
-  static const uzbek_arabic = Locale._('uz_');
+  static const ur_PK = Locale._('ur_PK');
 
   /// Uzbek Arabic Afghanistan
-  static const uzbek_arabic_afghanistan = Locale._('uz_AF');
+  static const uz_AF = Locale._('uz_AF');
 
-  /// Uzbek Cyrillic
-  static const uzbek_cyrillic = Locale._('uz_');
+  /// Uzbek Uzbekistan (Cyrillic/Latin)
+  static const uz_UZ = Locale._('uz_UZ');
 
-  /// Uzbek Cyrillic Uzbekistan
-  static const uzbek_cyrillic_uzbekistan = Locale._('uz_UZ');
-
-  /// Uzbek Latin
-  static const uzbek_latin = Locale._('uz_');
-
-  /// Uzbek Latin Uzbekistan
-  static const uzbek_latin_uzbekistan = Locale._('uz_UZ');
-
-  /// Vai
-  static const vai = Locale._('vai_');
-
-  /// Vai Latin
-  static const vai_latin = Locale._('vai_');
-
-  /// Vai Latin Liberia
-  static const vai_latin_liberia = Locale._('vai_LR');
-
-  /// Vai Vai
-  static const vai_vai = Locale._('vai_');
-
-  /// Vai Vai Liberia
-  static const vai_vai_liberia = Locale._('vai_LR');
-
-  /// Vietnamese
-  static const vietnamese = Locale._('vi_');
+  /// Vai Latin Liberia (Vai/Latin)
+  static const vai_LR = Locale._('vai_LR');
 
   /// Vietnamese Vietnam
-  static const vietnamese_vietnam = Locale._('vi_VN');
-
-  /// Vunjo
-  static const vunjo = Locale._('vun_');
+  static const vi_VN = Locale._('vi_VN');
 
   /// Vunjo Tanzania
-  static const vunjo_tanzania = Locale._('vun_TZ');
-
-  /// Soga
-  static const soga = Locale._('xog_');
+  static const vun_TZ = Locale._('vun_TZ');
 
   /// Soga Uganda
-  static const soga_uganda = Locale._('xog_UG');
-
-  /// Yangben
-  static const yangben = Locale._('yav_');
+  static const xog_UG = Locale._('xog_UG');
 
   /// Yangben Cameroon
-  static const yangben_cameroon = Locale._('yav_CM');
-
-  /// Yoruba
-  static const yoruba = Locale._('yo_');
+  static const yav_CM = Locale._('yav_CM');
 
   /// Yoruba Benin
-  static const yoruba_benin = Locale._('yo_BJ');
+  static const yo_BJ = Locale._('yo_BJ');
 
   /// Yoruba Nigeria
-  static const yoruba_nigeria = Locale._('yo_NG');
-
-  /// Standard Moroccan Tamazight
-  static const standard_moroccan_tamazight = Locale._('zgh_');
+  static const yo_NG = Locale._('yo_NG');
 
   /// Standard Moroccan Tamazight Morocco
-  static const standard_moroccan_tamazight_morocco = Locale._('zgh_MA');
-
-  /// Chinese
-  static const chinese = Locale._('zh_');
-
-  /// Chinese Simplified Han
-  static const chinese_simplified_han = Locale._('zh_');
+  static const zgh_MA = Locale._('zgh_MA');
 
   /// Chinese Simplified Han China
-  static const chinese_simplified_han_china = Locale._('zh_CN');
+  static const zh_CN = Locale._('zh_CN');
 
-  /// Chinese Simplified Han Hong Kong
-  static const chinese_simplified_han_hong_kong = Locale._('zh_HK');
+  /// Chinese Han Hong Kong (Simplified+Traditional)
+  static const zh_HK = Locale._('zh_HK');
 
-  /// Chinese Simplified Han Macau
-  static const chinese_simplified_han_macau = Locale._('zh_MO');
+  /// Chinese Han Macau (Simplified+Traditional)
+  static const zh_MO = Locale._('zh_MO');
 
   /// Chinese Simplified Han Singapore
-  static const chinese_simplified_han_singapore = Locale._('zh_SG');
-
-  /// Chinese Traditional Han
-  static const chinese_traditional_han = Locale._('zh_');
-
-  /// Chinese Traditional Han Hong Kong
-  static const chinese_traditional_han_hong_kong = Locale._('zh_HK');
-
-  /// Chinese Traditional Han Macau
-  static const chinese_traditional_han_macau = Locale._('zh_MO');
+  static const zh_SG = Locale._('zh_SG');
 
   /// Chinese Traditional Han Taiwan
-  static const chinese_traditional_han_taiwan = Locale._('zh_TW');
-
-  /// Zulu
-  static const zulu = Locale._('zu_');
+  static const zh_TW = Locale._('zh_TW');
 
   /// Zulu South Africa
-  static const zulu_south_africa = Locale._('zu_ZA');
+  static const zu_ZA = Locale._('zu_ZA');
 }
