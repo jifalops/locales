@@ -1,5 +1,5 @@
 # locales
-Locale codes and ISO 4217 currency codes.
+Locale codes strings ("en_US") and ISO 4217 currency codes ("USD").
 
 ## Example
 

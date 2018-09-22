@@ -1,3 +1,7 @@
+## [0.0.3] - September 22, 2018
+
+* Make pub happy (longer package description)
+
 ## [0.0.2] - September 22, 2018
 
 * Drop "s" suffix from class names.
