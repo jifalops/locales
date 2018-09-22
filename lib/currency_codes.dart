@@ -7,172 +7,508 @@ class CurrencyCode {
   final int number;
   @override
   toString() => _name;
-  static const united_arab_emirates_dirham = CurrencyCode._('AED', 784);
-  static const afghan_afghani = CurrencyCode._('AFN', 971);
-  static const albanian_lek = CurrencyCode._('ALL', 008);
-  static const armenian_dram = CurrencyCode._('AMD', 051);
-  static const netherlands_antillean_guilder = CurrencyCode._('ANG', 532);
-  static const angolan_kwanza = CurrencyCode._('AOA', 973);
-  static const argentine_peso = CurrencyCode._('ARS', 032);
-  static const australian_dollar = CurrencyCode._('AUD', 036);
-  static const aruban_florin = CurrencyCode._('AWG', 533);
-  static const azerbaijani_manat = CurrencyCode._('AZN', 944);
-  static const bosnia_herzegovina_mark = CurrencyCode._('BAM', 977);
-  static const barbados_dollar = CurrencyCode._('BBD', 052);
-  static const bangladeshi_taka = CurrencyCode._('BDT', 050);
-  static const bulgarian_lev = CurrencyCode._('BGN', 975);
-  static const bahraini_dinar = CurrencyCode._('BHD', 048);
-  static const burundian_franc = CurrencyCode._('BIF', 108);
-  static const bermudian_dollar = CurrencyCode._('BMD', 060);
-  static const brunei_dollar = CurrencyCode._('BND', 096);
-  static const boliviano = CurrencyCode._('BOB', 068);
-  static const brazilian_real = CurrencyCode._('BRL', 986);
-  static const bahamian_dollar = CurrencyCode._('BSD', 044);
-  static const bhutanese_ngultrum = CurrencyCode._('BTN', 064);
-  static const botswana_pula = CurrencyCode._('BWP', 072);
-  static const belarusian_ruble = CurrencyCode._('BYN', 933);
-  static const belize_dollar = CurrencyCode._('BZD', 084);
-  static const canadian_dollar = CurrencyCode._('CAD', 124);
-  static const congolese_franc = CurrencyCode._('CDF', 976);
-  static const swiss_franc = CurrencyCode._('CHF', 756);
-  static const chilean_peso = CurrencyCode._('CLP', 152);
-  static const chinese_yuan = CurrencyCode._('CNY', 156);
-  static const colombian_peso = CurrencyCode._('COP', 170);
-  static const colombian_unidad = CurrencyCode._('COU', 970);
-  static const costa_rican_colon = CurrencyCode._('CRC', 188);
-  static const cuban_convertible_peso = CurrencyCode._('CUC', 931);
-  static const cuban_peso = CurrencyCode._('CUP', 192);
-  static const cape_verde_escudo = CurrencyCode._('CVE', 132);
-  static const czech_koruna = CurrencyCode._('CZK', 203);
-  static const djiboutian_franc = CurrencyCode._('DJF', 262);
-  static const danish_krone = CurrencyCode._('DKK', 208);
-  static const dominican_peso = CurrencyCode._('DOP', 214);
-  static const algerian_dinar = CurrencyCode._('DZD', 012);
-  static const egyptian_pound = CurrencyCode._('EGP', 818);
-  static const eritrean_nakfa = CurrencyCode._('ERN', 232);
-  static const ethiopian_birr = CurrencyCode._('ETB', 230);
-  static const euro = CurrencyCode._('EUR', 978);
-  static const fiji_dollar = CurrencyCode._('FJD', 242);
-  static const falkland_islands_pound = CurrencyCode._('FKP', 238);
-  static const pound_sterling = CurrencyCode._('GBP', 826);
-  static const georgian_lari = CurrencyCode._('GEL', 981);
-  static const ghanaian_cedi = CurrencyCode._('GHS', 936);
-  static const gibraltar_pound = CurrencyCode._('GIP', 292);
-  static const gambian_dalasi = CurrencyCode._('GMD', 270);
-  static const guinean_franc = CurrencyCode._('GNF', 324);
-  static const guatemalan_quetzal = CurrencyCode._('GTQ', 320);
-  static const guyanese_dollar = CurrencyCode._('GYD', 328);
-  static const hong_kong_dollar = CurrencyCode._('HKD', 344);
-  static const honduran_lempira = CurrencyCode._('HNL', 340);
-  static const croatian_kuna = CurrencyCode._('HRK', 191);
-  static const haitian_gourde = CurrencyCode._('HTG', 332);
-  static const hungarian_forint = CurrencyCode._('HUF', 348);
-  static const indonesian_rupiah = CurrencyCode._('IDR', 360);
-  static const israeli_new_shekel = CurrencyCode._('ILS', 376);
-  static const indian_rupee = CurrencyCode._('INR', 356);
-  static const iraqi_dinar = CurrencyCode._('IQD', 368);
-  static const iranian_rial = CurrencyCode._('IRR', 364);
-  static const icelandic_krona = CurrencyCode._('ISK', 352);
-  static const jamaican_dollar = CurrencyCode._('JMD', 388);
-  static const jordanian_dinar = CurrencyCode._('JOD', 400);
-  static const japanese_yen = CurrencyCode._('JPY', 392);
-  static const kenyan_shilling = CurrencyCode._('KES', 404);
-  static const kyrgyzstani_som = CurrencyCode._('KGS', 417);
-  static const cambodian_riel = CurrencyCode._('KHR', 116);
-  static const comoro_franc = CurrencyCode._('KMF', 174);
-  static const north_korean_won = CurrencyCode._('KPW', 408);
-  static const south_korean_won = CurrencyCode._('KRW', 410);
-  static const kuwaiti_dinar = CurrencyCode._('KWD', 414);
-  static const cayman_islands_dollar = CurrencyCode._('KYD', 136);
-  static const kazakhstani_tenge = CurrencyCode._('KZT', 398);
-  static const lao_kip = CurrencyCode._('LAK', 418);
-  static const lebanese_pound = CurrencyCode._('LBP', 422);
-  static const sri_lankan_rupee = CurrencyCode._('LKR', 144);
-  static const liberian_dollar = CurrencyCode._('LRD', 430);
-  static const lesotho_loti = CurrencyCode._('LSL', 426);
-  static const libyan_dinar = CurrencyCode._('LYD', 434);
-  static const moroccan_dirham = CurrencyCode._('MAD', 504);
-  static const moldovan_leu = CurrencyCode._('MDL', 498);
-  static const malagasy_ariary = CurrencyCode._('MGA', 969);
-  static const macedonian_denar = CurrencyCode._('MKD', 807);
-  static const myanmar_kyat = CurrencyCode._('MMK', 104);
-  static const mongolian_togrog = CurrencyCode._('MNT', 496);
-  static const macanese_pataca = CurrencyCode._('MOP', 446);
-  static const mauritanian_ouguiya = CurrencyCode._('MRU', 929);
-  static const mauritian_rupee = CurrencyCode._('MUR', 480);
-  static const maldivian_rufiyaa = CurrencyCode._('MVR', 462);
-  static const malawian_kwacha = CurrencyCode._('MWK', 454);
-  static const mexican_peso = CurrencyCode._('MXN', 484);
-  static const malaysian_ringgit = CurrencyCode._('MYR', 458);
-  static const mozambican_metical = CurrencyCode._('MZN', 943);
-  static const namibian_dollar = CurrencyCode._('NAD', 516);
-  static const nigerian_naira = CurrencyCode._('NGN', 566);
-  static const nicaraguan_cordoba = CurrencyCode._('NIO', 558);
-  static const norwegian_krone = CurrencyCode._('NOK', 578);
-  static const nepalese_rupee = CurrencyCode._('NPR', 524);
-  static const new_zealand_dollar = CurrencyCode._('NZD', 554);
-  static const omani_rial = CurrencyCode._('OMR', 512);
-  static const panamanian_balboa = CurrencyCode._('PAB', 590);
-  static const peruvian_sol = CurrencyCode._('PEN', 604);
-  static const papua_new_guinean_kina = CurrencyCode._('PGK', 598);
-  static const philippine_peso = CurrencyCode._('PHP', 608);
-  static const pakistani_rupee = CurrencyCode._('PKR', 586);
-  static const polish_zloty = CurrencyCode._('PLN', 985);
-  static const paraguayan_guarani = CurrencyCode._('PYG', 600);
-  static const qatari_riyal = CurrencyCode._('QAR', 634);
-  static const romanian_leu = CurrencyCode._('RON', 946);
-  static const serbian_dinar = CurrencyCode._('RSD', 941);
-  static const russian_ruble = CurrencyCode._('RUB', 643);
-  static const rwandan_franc = CurrencyCode._('RWF', 646);
-  static const saudi_riyal = CurrencyCode._('SAR', 682);
-  static const solomon_islands_dollar = CurrencyCode._('SBD', 090);
-  static const seychelles_rupee = CurrencyCode._('SCR', 690);
-  static const sudanese_pound = CurrencyCode._('SDG', 938);
-  static const swedish_kronor = CurrencyCode._('SEK', 752);
-  static const singapore_dollar = CurrencyCode._('SGD', 702);
-  static const saint_helena_pound = CurrencyCode._('SHP', 654);
-  static const sierra_leonean_leone = CurrencyCode._('SLL', 694);
-  static const somali_shilling = CurrencyCode._('SOS', 706);
-  static const surinamese_dollar = CurrencyCode._('SRD', 968);
-  static const south_sudanese_pound = CurrencyCode._('SSP', 728);
-  static const sao_tome_principe_dobra = CurrencyCode._('STN', 930);
-  static const salvadoran_colon = CurrencyCode._('SVC', 222);
-  static const syrian_pound = CurrencyCode._('SYP', 760);
-  static const swazi_lilangeni = CurrencyCode._('SZL', 748);
-  static const thai_baht = CurrencyCode._('THB', 764);
-  static const tajikistani_somoni = CurrencyCode._('TJS', 972);
-  static const turkmenistan_manat = CurrencyCode._('TMT', 934);
-  static const tunisian_dinar = CurrencyCode._('TND', 788);
-  static const tongan_paanga = CurrencyCode._('TOP', 776);
-  static const turkish_lira = CurrencyCode._('TRY', 949);
-  static const trinidad_tobago_dollar = CurrencyCode._('TTD', 780);
-  static const new_taiwan_dollar = CurrencyCode._('TWD', 901);
-  static const tanzanian_shilling = CurrencyCode._('TZS', 834);
-  static const ukrainian_hryvnia = CurrencyCode._('UAH', 980);
-  static const ugandan_shilling = CurrencyCode._('UGX', 800);
-  static const united_states_dollar = CurrencyCode._('USD', 840);
-  static const uruguayan_peso = CurrencyCode._('UYU', 858);
-  static const unidad_previsional = CurrencyCode._('UYW', 927);
-  static const uzbekistan_som = CurrencyCode._('UZS', 860);
-  static const venezuelan_bolivar_soberano = CurrencyCode._('VES', 928);
-  static const vietnamese_dong = CurrencyCode._('VND', 704);
-  static const vanuatu_vatu = CurrencyCode._('VUV', 548);
-  static const samoan_tala = CurrencyCode._('WST', 882);
-  static const cfa_franc_beac = CurrencyCode._('XAF', 950);
-  static const silver = CurrencyCode._('XAG', 961);
-  static const gold = CurrencyCode._('XAU', 959);
-  static const east_caribbean_dollar = CurrencyCode._('XCD', 951);
-  static const special_drawing_rights = CurrencyCode._('XDR', 960);
-  static const cfa_franc_bceao = CurrencyCode._('XOF', 952);
-  static const palladium = CurrencyCode._('XPD', 964);
-  static const cfp_franc = CurrencyCode._('XPF', 953);
-  static const platinum = CurrencyCode._('XPT', 962);
-  static const sucre = CurrencyCode._('XSU', 994);
-  static const code_reserved_for_testing_purposes = CurrencyCode._('XTS', 963);
-  static const adb_unit_of_account = CurrencyCode._('XUA', 965);
-  static const no_currency = CurrencyCode._('XXX', 999);
-  static const yemeni_rial = CurrencyCode._('YER', 886);
-  static const south_african_rand = CurrencyCode._('ZAR', 710);
-  static const zambian_kwacha = CurrencyCode._('ZMW', 967);
-  static const zimbabwean_dollar_a10 = CurrencyCode._('ZWL', 932);
+
+  /// United Arab Emirates Dirham
+  static const aed = CurrencyCode._('AED', 784);
+
+  /// Afghan Afghani
+  static const afn = CurrencyCode._('AFN', 971);
+
+  /// Albanian Lek
+  static const all = CurrencyCode._('ALL', 008);
+
+  /// Armenian Dram
+  static const amd = CurrencyCode._('AMD', 051);
+
+  /// Netherlands Antillean Guilder
+  static const ang = CurrencyCode._('ANG', 532);
+
+  /// Angolan Kwanza
+  static const aoa = CurrencyCode._('AOA', 973);
+
+  /// Argentine Peso
+  static const ars = CurrencyCode._('ARS', 032);
+
+  /// Australian Dollar
+  static const aud = CurrencyCode._('AUD', 036);
+
+  /// Aruban Florin
+  static const awg = CurrencyCode._('AWG', 533);
+
+  /// Azerbaijani Manat
+  static const azn = CurrencyCode._('AZN', 944);
+
+  /// Bosnia Herzegovina Mark
+  static const bam = CurrencyCode._('BAM', 977);
+
+  /// Barbados Dollar
+  static const bbd = CurrencyCode._('BBD', 052);
+
+  /// Bangladeshi Taka
+  static const bdt = CurrencyCode._('BDT', 050);
+
+  /// Bulgarian Lev
+  static const bgn = CurrencyCode._('BGN', 975);
+
+  /// Bahraini Dinar
+  static const bhd = CurrencyCode._('BHD', 048);
+
+  /// Burundian Franc
+  static const bif = CurrencyCode._('BIF', 108);
+
+  /// Bermudian Dollar
+  static const bmd = CurrencyCode._('BMD', 060);
+
+  /// Brunei Dollar
+  static const bnd = CurrencyCode._('BND', 096);
+
+  /// Boliviano
+  static const bob = CurrencyCode._('BOB', 068);
+
+  /// Brazilian Real
+  static const brl = CurrencyCode._('BRL', 986);
+
+  /// Bahamian Dollar
+  static const bsd = CurrencyCode._('BSD', 044);
+
+  /// Bhutanese Ngultrum
+  static const btn = CurrencyCode._('BTN', 064);
+
+  /// Botswana Pula
+  static const bwp = CurrencyCode._('BWP', 072);
+
+  /// Belarusian Ruble
+  static const byn = CurrencyCode._('BYN', 933);
+
+  /// Belize Dollar
+  static const bzd = CurrencyCode._('BZD', 084);
+
+  /// Canadian Dollar
+  static const cad = CurrencyCode._('CAD', 124);
+
+  /// Congolese Franc
+  static const cdf = CurrencyCode._('CDF', 976);
+
+  /// Swiss Franc
+  static const chf = CurrencyCode._('CHF', 756);
+
+  /// Chilean Peso
+  static const clp = CurrencyCode._('CLP', 152);
+
+  /// Chinese Yuan
+  static const cny = CurrencyCode._('CNY', 156);
+
+  /// Colombian Peso
+  static const cop = CurrencyCode._('COP', 170);
+
+  /// Colombian Unidad
+  static const cou = CurrencyCode._('COU', 970);
+
+  /// Costa Rican Colon
+  static const crc = CurrencyCode._('CRC', 188);
+
+  /// Cuban Convertible Peso
+  static const cuc = CurrencyCode._('CUC', 931);
+
+  /// Cuban Peso
+  static const cup = CurrencyCode._('CUP', 192);
+
+  /// Cape Verde Escudo
+  static const cve = CurrencyCode._('CVE', 132);
+
+  /// Czech Koruna
+  static const czk = CurrencyCode._('CZK', 203);
+
+  /// Djiboutian Franc
+  static const djf = CurrencyCode._('DJF', 262);
+
+  /// Danish Krone
+  static const dkk = CurrencyCode._('DKK', 208);
+
+  /// Dominican Peso
+  static const dop = CurrencyCode._('DOP', 214);
+
+  /// Algerian Dinar
+  static const dzd = CurrencyCode._('DZD', 012);
+
+  /// Egyptian Pound
+  static const egp = CurrencyCode._('EGP', 818);
+
+  /// Eritrean Nakfa
+  static const ern = CurrencyCode._('ERN', 232);
+
+  /// Ethiopian Birr
+  static const etb = CurrencyCode._('ETB', 230);
+
+  /// Euro
+  static const eur = CurrencyCode._('EUR', 978);
+
+  /// Fiji Dollar
+  static const fjd = CurrencyCode._('FJD', 242);
+
+  /// Falkland Islands Pound
+  static const fkp = CurrencyCode._('FKP', 238);
+
+  /// Pound Sterling
+  static const gbp = CurrencyCode._('GBP', 826);
+
+  /// Georgian Lari
+  static const gel = CurrencyCode._('GEL', 981);
+
+  /// Ghanaian Cedi
+  static const ghs = CurrencyCode._('GHS', 936);
+
+  /// Gibraltar Pound
+  static const gip = CurrencyCode._('GIP', 292);
+
+  /// Gambian Dalasi
+  static const gmd = CurrencyCode._('GMD', 270);
+
+  /// Guinean Franc
+  static const gnf = CurrencyCode._('GNF', 324);
+
+  /// Guatemalan Quetzal
+  static const gtq = CurrencyCode._('GTQ', 320);
+
+  /// Guyanese Dollar
+  static const gyd = CurrencyCode._('GYD', 328);
+
+  /// Hong Kong Dollar
+  static const hkd = CurrencyCode._('HKD', 344);
+
+  /// Honduran Lempira
+  static const hnl = CurrencyCode._('HNL', 340);
+
+  /// Croatian Kuna
+  static const hrk = CurrencyCode._('HRK', 191);
+
+  /// Haitian Gourde
+  static const htg = CurrencyCode._('HTG', 332);
+
+  /// Hungarian Forint
+  static const huf = CurrencyCode._('HUF', 348);
+
+  /// Indonesian Rupiah
+  static const idr = CurrencyCode._('IDR', 360);
+
+  /// Israeli New Shekel
+  static const ils = CurrencyCode._('ILS', 376);
+
+  /// Indian Rupee
+  static const inr = CurrencyCode._('INR', 356);
+
+  /// Iraqi Dinar
+  static const iqd = CurrencyCode._('IQD', 368);
+
+  /// Iranian Rial
+  static const irr = CurrencyCode._('IRR', 364);
+
+  /// Icelandic Krona
+  static const isk = CurrencyCode._('ISK', 352);
+
+  /// Jamaican Dollar
+  static const jmd = CurrencyCode._('JMD', 388);
+
+  /// Jordanian Dinar
+  static const jod = CurrencyCode._('JOD', 400);
+
+  /// Japanese Yen
+  static const jpy = CurrencyCode._('JPY', 392);
+
+  /// Kenyan Shilling
+  static const kes = CurrencyCode._('KES', 404);
+
+  /// Kyrgyzstani Som
+  static const kgs = CurrencyCode._('KGS', 417);
+
+  /// Cambodian Riel
+  static const khr = CurrencyCode._('KHR', 116);
+
+  /// Comoro Franc
+  static const kmf = CurrencyCode._('KMF', 174);
+
+  /// North Korean Won
+  static const kpw = CurrencyCode._('KPW', 408);
+
+  /// South Korean Won
+  static const krw = CurrencyCode._('KRW', 410);
+
+  /// Kuwaiti Dinar
+  static const kwd = CurrencyCode._('KWD', 414);
+
+  /// Cayman Islands Dollar
+  static const kyd = CurrencyCode._('KYD', 136);
+
+  /// Kazakhstani Tenge
+  static const kzt = CurrencyCode._('KZT', 398);
+
+  /// Lao Kip
+  static const lak = CurrencyCode._('LAK', 418);
+
+  /// Lebanese Pound
+  static const lbp = CurrencyCode._('LBP', 422);
+
+  /// Sri Lankan Rupee
+  static const lkr = CurrencyCode._('LKR', 144);
+
+  /// Liberian Dollar
+  static const lrd = CurrencyCode._('LRD', 430);
+
+  /// Lesotho Loti
+  static const lsl = CurrencyCode._('LSL', 426);
+
+  /// Libyan Dinar
+  static const lyd = CurrencyCode._('LYD', 434);
+
+  /// Moroccan Dirham
+  static const mad = CurrencyCode._('MAD', 504);
+
+  /// Moldovan Leu
+  static const mdl = CurrencyCode._('MDL', 498);
+
+  /// Malagasy Ariary
+  static const mga = CurrencyCode._('MGA', 969);
+
+  /// Macedonian Denar
+  static const mkd = CurrencyCode._('MKD', 807);
+
+  /// Myanmar Kyat
+  static const mmk = CurrencyCode._('MMK', 104);
+
+  /// Mongolian Togrog
+  static const mnt = CurrencyCode._('MNT', 496);
+
+  /// Macanese Pataca
+  static const mop = CurrencyCode._('MOP', 446);
+
+  /// Mauritanian Ouguiya
+  static const mru = CurrencyCode._('MRU', 929);
+
+  /// Mauritian Rupee
+  static const mur = CurrencyCode._('MUR', 480);
+
+  /// Maldivian Rufiyaa
+  static const mvr = CurrencyCode._('MVR', 462);
+
+  /// Malawian Kwacha
+  static const mwk = CurrencyCode._('MWK', 454);
+
+  /// Mexican Peso
+  static const mxn = CurrencyCode._('MXN', 484);
+
+  /// Malaysian Ringgit
+  static const myr = CurrencyCode._('MYR', 458);
+
+  /// Mozambican Metical
+  static const mzn = CurrencyCode._('MZN', 943);
+
+  /// Namibian Dollar
+  static const nad = CurrencyCode._('NAD', 516);
+
+  /// Nigerian Naira
+  static const ngn = CurrencyCode._('NGN', 566);
+
+  /// Nicaraguan Cordoba
+  static const nio = CurrencyCode._('NIO', 558);
+
+  /// Norwegian Krone
+  static const nok = CurrencyCode._('NOK', 578);
+
+  /// Nepalese Rupee
+  static const npr = CurrencyCode._('NPR', 524);
+
+  /// New Zealand Dollar
+  static const nzd = CurrencyCode._('NZD', 554);
+
+  /// Omani Rial
+  static const omr = CurrencyCode._('OMR', 512);
+
+  /// Panamanian Balboa
+  static const pab = CurrencyCode._('PAB', 590);
+
+  /// Peruvian Sol
+  static const pen = CurrencyCode._('PEN', 604);
+
+  /// Papua New Guinean Kina
+  static const pgk = CurrencyCode._('PGK', 598);
+
+  /// Philippine Peso
+  static const php = CurrencyCode._('PHP', 608);
+
+  /// Pakistani Rupee
+  static const pkr = CurrencyCode._('PKR', 586);
+
+  /// Polish Zloty
+  static const pln = CurrencyCode._('PLN', 985);
+
+  /// Paraguayan Guarani
+  static const pyg = CurrencyCode._('PYG', 600);
+
+  /// Qatari Riyal
+  static const qar = CurrencyCode._('QAR', 634);
+
+  /// Romanian Leu
+  static const ron = CurrencyCode._('RON', 946);
+
+  /// Serbian Dinar
+  static const rsd = CurrencyCode._('RSD', 941);
+
+  /// Russian Ruble
+  static const rub = CurrencyCode._('RUB', 643);
+
+  /// Rwandan Franc
+  static const rwf = CurrencyCode._('RWF', 646);
+
+  /// Saudi Riyal
+  static const sar = CurrencyCode._('SAR', 682);
+
+  /// Solomon Islands Dollar
+  static const sbd = CurrencyCode._('SBD', 090);
+
+  /// Seychelles Rupee
+  static const scr = CurrencyCode._('SCR', 690);
+
+  /// Sudanese Pound
+  static const sdg = CurrencyCode._('SDG', 938);
+
+  /// Swedish Kronor
+  static const sek = CurrencyCode._('SEK', 752);
+
+  /// Singapore Dollar
+  static const sgd = CurrencyCode._('SGD', 702);
+
+  /// Saint Helena Pound
+  static const shp = CurrencyCode._('SHP', 654);
+
+  /// Sierra Leonean Leone
+  static const sll = CurrencyCode._('SLL', 694);
+
+  /// Somali Shilling
+  static const sos = CurrencyCode._('SOS', 706);
+
+  /// Surinamese Dollar
+  static const srd = CurrencyCode._('SRD', 968);
+
+  /// South Sudanese Pound
+  static const ssp = CurrencyCode._('SSP', 728);
+
+  /// Sao Tome Principe Dobra
+  static const stn = CurrencyCode._('STN', 930);
+
+  /// Salvadoran Colon
+  static const svc = CurrencyCode._('SVC', 222);
+
+  /// Syrian Pound
+  static const syp = CurrencyCode._('SYP', 760);
+
+  /// Swazi Lilangeni
+  static const szl = CurrencyCode._('SZL', 748);
+
+  /// Thai Baht
+  static const thb = CurrencyCode._('THB', 764);
+
+  /// Tajikistani Somoni
+  static const tjs = CurrencyCode._('TJS', 972);
+
+  /// Turkmenistan Manat
+  static const tmt = CurrencyCode._('TMT', 934);
+
+  /// Tunisian Dinar
+  static const tnd = CurrencyCode._('TND', 788);
+
+  /// Tongan Paanga
+  static const top = CurrencyCode._('TOP', 776);
+
+  /// Turkish Lira
+  static const try_ = CurrencyCode._('TRY', 949);
+
+  /// Trinidad Tobago Dollar
+  static const ttd = CurrencyCode._('TTD', 780);
+
+  /// New Taiwan Dollar
+  static const twd = CurrencyCode._('TWD', 901);
+
+  /// Tanzanian Shilling
+  static const tzs = CurrencyCode._('TZS', 834);
+
+  /// Ukrainian Hryvnia
+  static const uah = CurrencyCode._('UAH', 980);
+
+  /// Ugandan Shilling
+  static const ugx = CurrencyCode._('UGX', 800);
+
+  /// United States Dollar
+  static const usd = CurrencyCode._('USD', 840);
+
+  /// Uruguayan Peso
+  static const uyu = CurrencyCode._('UYU', 858);
+
+  /// Unidad Previsional
+  static const uyw = CurrencyCode._('UYW', 927);
+
+  /// Uzbekistan Som
+  static const uzs = CurrencyCode._('UZS', 860);
+
+  /// Venezuelan Bolivar Soberano
+  static const ves = CurrencyCode._('VES', 928);
+
+  /// Vietnamese Dong
+  static const vnd = CurrencyCode._('VND', 704);
+
+  /// Vanuatu Vatu
+  static const vuv = CurrencyCode._('VUV', 548);
+
+  /// Samoan Tala
+  static const wst = CurrencyCode._('WST', 882);
+
+  /// Cfa Franc Beac
+  static const xaf = CurrencyCode._('XAF', 950);
+
+  /// Silver
+  static const xag = CurrencyCode._('XAG', 961);
+
+  /// Gold
+  static const xau = CurrencyCode._('XAU', 959);
+
+  /// East Caribbean Dollar
+  static const xcd = CurrencyCode._('XCD', 951);
+
+  /// Special Drawing Rights
+  static const xdr = CurrencyCode._('XDR', 960);
+
+  /// Cfa Franc Bceao
+  static const xof = CurrencyCode._('XOF', 952);
+
+  /// Palladium
+  static const xpd = CurrencyCode._('XPD', 964);
+
+  /// Cfp Franc
+  static const xpf = CurrencyCode._('XPF', 953);
+
+  /// Platinum
+  static const xpt = CurrencyCode._('XPT', 962);
+
+  /// Sucre
+  static const xsu = CurrencyCode._('XSU', 994);
+
+  /// Code Reserved For Testing Purposes
+  static const xts = CurrencyCode._('XTS', 963);
+
+  /// Adb Unit Of Account
+  static const xua = CurrencyCode._('XUA', 965);
+
+  /// No Currency
+  static const xxx = CurrencyCode._('XXX', 999);
+
+  /// Yemeni Rial
+  static const yer = CurrencyCode._('YER', 886);
+
+  /// South African Rand
+  static const zar = CurrencyCode._('ZAR', 710);
+
+  /// Zambian Kwacha
+  static const zmw = CurrencyCode._('ZMW', 967);
+
+  /// Zimbabwean Dollar A10
+  static const zwl = CurrencyCode._('ZWL', 932);
 }
