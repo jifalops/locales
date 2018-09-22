@@ -1,6 +1,6 @@
 name: locales
 description: Locale codes strings ("en_US") and ISO 4217 currency codes ("USD").
-version: 0.0.3
+version: 0.1.0
 author: Jacob Phillips <jifalops@gmail.com>
 homepage: https://github.com/jifalops/locales
 

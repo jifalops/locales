@@ -3,8 +3,8 @@ import 'package:locales/currency_codes.dart';
 import 'package:intl/intl.dart';
 
 void main() {
-  final locale = Locale.english_united_states;
-  final currencyCode = CurrencyCode.united_states_dollar;
+  final locale = Locale.en_US;
+  final currencyCode = CurrencyCode.usd;
   final format = NumberFormat.simpleCurrency(
       locale: '$locale', name: '$currencyCode', decimalDigits: 2);
   print(locale); // en_US

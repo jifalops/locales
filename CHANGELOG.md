@@ -1,3 +1,8 @@
+## [0.1.0] - September 22, 2018
+
+* Use the abbreviation as the constant (Locale.en_US) and make the long form
+  a doc comment.
+
 ## [0.0.3] - September 22, 2018
 
 * Make pub happy (longer package description)
